@@ -1,0 +1,14 @@
+{
+  "appId": "com.nba.liveanalyzer",
+  "appName": "NBA实时分析",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#0a0e1a",
+      "showSpinner": false
+    }
+  }
+}

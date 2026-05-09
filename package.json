@@ -1,0 +1,21 @@
+{
+  "name": "nba-live-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.3.3",
+    "@capacitor/cli": "^8.3.3",
+    "@capacitor/core": "^8.3.3",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "axios": "^1.9.0",
+    "express": "^5.2.1",
+    "vite": "^6.3.5",
+    "vue": "^3.5.14"
+  }
+}

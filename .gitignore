@@ -1,0 +1,8 @@
+node_modules/
+dist/
+android/
+deploy/
+screenshot.png
+screenshot2.png
+test_*.js
+package-lock.json

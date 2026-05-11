@@ -13,10 +13,10 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout gh-pages branch
+      - name: Checkout nba-data branch
         uses: actions/checkout@v4
         with:
-          ref: gh-pages
+          ref: nba-data
           fetch-depth: 1
 
       - name: Fetch NBA live data
@@ -72,3 +72,12 @@ jobs:
             git commit -m "nba-data: $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
+
+      - name: Purge jsDelivr cache
+        if: success()
+        run: |
+          # 清除jsDelivr CDN缓存，使新数据立即可用
+          for f in scoreboard.json schedule.json; do
+            curl -s -f "https://purge.jsdelivr.net/gh/Provit123/nba-live-analyzer@nba-data/data/${f}" \
+              && echo "purge ${f} OK" || echo "purge ${f} FAIL"
+          done

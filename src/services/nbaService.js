@@ -1,25 +1,26 @@
 import axios from 'axios'
 
-// 数据源：优先同域 /data/ 目录，CORS代理作为fallback
+// 数据源：jsDelivr CDN(nba-data分支) → 同域/data/ → CORS代理fallback
 const CORS_PROXY = 'https://nba-proxy.2864696329.workers.dev'
 const NBA_CDN = 'https://cdn.nba.com/static/json'
+const JSDELIVR_BASE = 'https://cdn.jsdelivr.net/gh/Provit123/nba-live-analyzer@nba-data/data'
 
-// 同域数据路径映射
+// 同域数据路径映射（作为jsDelivr的fallback）
 const DATA_MAP = {
-  '/liveData/scoreboard/todaysScoreboard_00.json': '/data/scoreboard.json',
-  '/staticData/scheduleLeagueV2_1.json': '/data/schedule.json',
+  '/liveData/scoreboard/todaysScoreboard_00.json': 'scoreboard.json',
+  '/staticData/scheduleLeagueV2_1.json': 'schedule.json',
 }
 
 function cdnUrl(nbaPath) {
-  // 1. 先尝试同域 /data/ 路径
+  // 1. 已知路径映射 → jsDelivr CDN (国内可访问，缓存由purge刷新)
   if (DATA_MAP[nbaPath]) {
-    return DATA_MAP[nbaPath]
+    return `${JSDELIVR_BASE}/${DATA_MAP[nbaPath]}`
   }
   // 2. boxscore / playbyplay 按gameId映射
   const boxMatch = nbaPath.match(/\/liveData\/boxscore\/boxscore_(\d+)\.json/)
-  if (boxMatch) return `/data/boxscore_${boxMatch[1]}.json`
+  if (boxMatch) return `${JSDELIVR_BASE}/boxscore_${boxMatch[1]}.json`
   const pbpMatch = nbaPath.match(/\/liveData\/playbyplay\/playbyplay_(\d+)\.json/)
-  if (pbpMatch) return `/data/playbyplay_${pbpMatch[1]}.json`
+  if (pbpMatch) return `${JSDELIVR_BASE}/playbyplay_${pbpMatch[1]}.json`
   // 3. fallback到CORS代理
   return `${CORS_PROXY}?path=${nbaPath}`
 }

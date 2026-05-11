@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "http://nba.cloud/league/00/2025-26/scheduleleaguev2?Format=json",
-    "time": "2026-05-11T11:26:45.2645Z"
+    "time": "2026-05-11T17:01:34.134Z"
   },
   "leagueSchedule": {
     "seasonYear": "2025-26",
@@ -49,7 +49,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -172,7 +172,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -350,7 +350,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -477,7 +477,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -585,7 +585,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -800,7 +800,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -1846,7 +1846,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -2376,7 +2376,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -2526,7 +2526,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -3096,7 +3096,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -3679,7 +3679,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -4206,7 +4206,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -4454,7 +4454,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -4889,7 +4889,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -5025,7 +5025,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -5652,7 +5652,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -6137,7 +6137,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -7524,7 +7524,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -8473,7 +8473,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -8837,7 +8837,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -13717,7 +13717,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -19897,7 +19897,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -21899,7 +21899,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -22779,16 +22779,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1626162,
-                "firstName": "Kelly",
-                "lastName": "Oubre Jr.",
-                "teamId": 1610612755,
-                "teamCity": "Philadelphia",
-                "teamName": "76ers",
-                "teamTricode": "PHI",
-                "points": 29.0
-              },
-              {
                 "personId": 1630560,
                 "firstName": "Cam",
                 "lastName": "Thomas",
@@ -22796,6 +22786,16 @@
                 "teamCity": "Brooklyn",
                 "teamName": "Nets",
                 "teamTricode": "BKN",
+                "points": 29.0
+              },
+              {
+                "personId": 1626162,
+                "firstName": "Kelly",
+                "lastName": "Oubre Jr.",
+                "teamId": 1610612755,
+                "teamCity": "Philadelphia",
+                "teamName": "76ers",
+                "teamTricode": "PHI",
                 "points": 29.0
               }
             ]
@@ -24843,7 +24843,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -27858,7 +27858,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -29953,7 +29953,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -33293,7 +33293,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -36270,7 +36270,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -38136,7 +38136,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -38570,7 +38570,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -44143,7 +44143,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -44399,16 +44399,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1629614,
-                "firstName": "Andrew",
-                "lastName": "Nembhard",
-                "teamId": 1610612754,
-                "teamCity": "Indiana",
-                "teamName": "Pacers",
-                "teamTricode": "IND",
-                "points": 32.0
-              },
-              {
                 "personId": 1628378,
                 "firstName": "Donovan",
                 "lastName": "Mitchell",
@@ -44416,6 +44406,16 @@
                 "teamCity": "Cleveland",
                 "teamName": "Cavaliers",
                 "teamTricode": "CLE",
+                "points": 32.0
+              },
+              {
+                "personId": 1629614,
+                "firstName": "Andrew",
+                "lastName": "Nembhard",
+                "teamId": 1610612754,
+                "teamCity": "Indiana",
+                "teamName": "Pacers",
+                "teamTricode": "IND",
                 "points": 32.0
               }
             ]
@@ -45843,7 +45843,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -46319,7 +46319,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -53104,7 +53104,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -53836,7 +53836,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -59109,7 +59109,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -59302,7 +59302,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -61723,16 +61723,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1629656,
-                "firstName": "Quentin",
-                "lastName": "Grimes",
-                "teamId": 1610612755,
-                "teamCity": "Philadelphia",
-                "teamName": "76ers",
-                "teamTricode": "PHI",
-                "points": 22.0
-              },
-              {
                 "personId": 1626171,
                 "firstName": "Bobby",
                 "lastName": "Portis",
@@ -61740,6 +61730,16 @@
                 "teamCity": "Milwaukee",
                 "teamName": "Bucks",
                 "teamTricode": "MIL",
+                "points": 22.0
+              },
+              {
+                "personId": 1629656,
+                "firstName": "Quentin",
+                "lastName": "Grimes",
+                "teamId": 1610612755,
+                "teamCity": "Philadelphia",
+                "teamName": "76ers",
+                "teamTricode": "PHI",
                 "points": 22.0
               }
             ]
@@ -62235,7 +62235,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -63235,16 +63235,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1627742,
-                "firstName": "Brandon",
-                "lastName": "Ingram",
-                "teamId": 1610612761,
-                "teamCity": "Toronto",
-                "teamName": "Raptors",
-                "teamTricode": "TOR",
-                "points": 30.0
-              },
-              {
                 "personId": 1627759,
                 "firstName": "Jaylen",
                 "lastName": "Brown",
@@ -63252,6 +63242,16 @@
                 "teamCity": "Boston",
                 "teamName": "Celtics",
                 "teamTricode": "BOS",
+                "points": 30.0
+              },
+              {
+                "personId": 1627742,
+                "firstName": "Brandon",
+                "lastName": "Ingram",
+                "teamId": 1610612761,
+                "teamCity": "Toronto",
+                "teamName": "Raptors",
+                "teamTricode": "TOR",
                 "points": 30.0
               }
             ]
@@ -65965,7 +65965,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -66753,7 +66753,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -69581,7 +69581,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -69750,7 +69750,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -72352,7 +72352,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -72963,7 +72963,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -73765,7 +73765,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -75419,16 +75419,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628374,
-                "firstName": "Lauri",
-                "lastName": "Markkanen",
-                "teamId": 1610612762,
-                "teamCity": "Utah",
-                "teamName": "Jazz",
-                "teamTricode": "UTA",
-                "points": 27.0
-              },
-              {
                 "personId": 1627750,
                 "firstName": "Jamal",
                 "lastName": "Murray",
@@ -75436,6 +75426,16 @@
                 "teamCity": "Denver",
                 "teamName": "Nuggets",
                 "teamTricode": "DEN",
+                "points": 27.0
+              },
+              {
+                "personId": 1628374,
+                "firstName": "Lauri",
+                "lastName": "Markkanen",
+                "teamId": 1610612762,
+                "teamCity": "Utah",
+                "teamName": "Jazz",
+                "teamTricode": "UTA",
                 "points": 27.0
               }
             ]
@@ -78274,16 +78274,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628973,
-                "firstName": "Jalen",
-                "lastName": "Brunson",
-                "teamId": 1610612752,
-                "teamCity": "New York",
-                "teamName": "Knicks",
-                "teamTricode": "NYK",
-                "points": 34.0
-              },
-              {
                 "personId": 1628378,
                 "firstName": "Donovan",
                 "lastName": "Mitchell",
@@ -78291,6 +78281,16 @@
                 "teamCity": "Cleveland",
                 "teamName": "Cavaliers",
                 "teamTricode": "CLE",
+                "points": 34.0
+              },
+              {
+                "personId": 1628973,
+                "firstName": "Jalen",
+                "lastName": "Brunson",
+                "teamId": 1610612752,
+                "teamCity": "New York",
+                "teamName": "Knicks",
+                "teamTricode": "NYK",
                 "points": 34.0
               }
             ]
@@ -80299,7 +80299,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -80803,7 +80803,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -84945,7 +84945,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -85407,7 +85407,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -85748,7 +85748,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -86648,7 +86648,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -88724,7 +88724,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -88888,7 +88888,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -89811,7 +89811,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -96313,7 +96313,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -97101,7 +97101,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -105705,7 +105705,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -106479,7 +106479,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -111166,6 +111166,16 @@
             },
             "pointsLeaders": [
               {
+                "personId": 201566,
+                "firstName": "Russell",
+                "lastName": "Westbrook",
+                "teamId": 1610612758,
+                "teamCity": "Sacramento",
+                "teamName": "Kings",
+                "teamTricode": "SAC",
+                "points": 23.0
+              },
+              {
                 "personId": 1627742,
                 "firstName": "Brandon",
                 "lastName": "Ingram",
@@ -111183,16 +111193,6 @@
                 "teamCity": "Toronto",
                 "teamName": "Raptors",
                 "teamTricode": "TOR",
-                "points": 23.0
-              },
-              {
-                "personId": 201566,
-                "firstName": "Russell",
-                "lastName": "Westbrook",
-                "teamId": 1610612758,
-                "teamCity": "Sacramento",
-                "teamName": "Kings",
-                "teamTricode": "SAC",
                 "points": 23.0
               }
             ]
@@ -114603,7 +114603,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -118536,16 +118536,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628991,
-                "firstName": "Jaren",
-                "lastName": "Jackson Jr.",
-                "teamId": 1610612763,
-                "teamCity": "Memphis",
-                "teamName": "Grizzlies",
-                "teamTricode": "MEM",
-                "points": 26.0
-              },
-              {
                 "personId": 1641706,
                 "firstName": "Brandon",
                 "lastName": "Miller",
@@ -118553,6 +118543,16 @@
                 "teamCity": "Charlotte",
                 "teamName": "Hornets",
                 "teamTricode": "CHA",
+                "points": 26.0
+              },
+              {
+                "personId": 1628991,
+                "firstName": "Jaren",
+                "lastName": "Jackson Jr.",
+                "teamId": 1610612763,
+                "teamCity": "Memphis",
+                "teamName": "Grizzlies",
+                "teamTricode": "MEM",
                 "points": 26.0
               }
             ]
@@ -133517,7 +133517,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -133858,7 +133858,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -140499,7 +140499,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -140940,16 +140940,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1641713,
-                "firstName": "GG",
-                "lastName": "Jackson",
-                "teamId": 1610612763,
-                "teamCity": "Memphis",
-                "teamName": "Grizzlies",
-                "teamTricode": "MEM",
-                "points": 28.0
-              },
-              {
                 "personId": 203952,
                 "firstName": "Andrew",
                 "lastName": "Wiggins",
@@ -140957,6 +140947,16 @@
                 "teamCity": "Miami",
                 "teamName": "Heat",
                 "teamTricode": "MIA",
+                "points": 28.0
+              },
+              {
+                "personId": 1641713,
+                "firstName": "GG",
+                "lastName": "Jackson",
+                "teamId": 1610612763,
+                "teamCity": "Memphis",
+                "teamName": "Grizzlies",
+                "teamTricode": "MEM",
                 "points": 28.0
               }
             ]
@@ -142967,7 +142967,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -151162,7 +151162,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -152691,16 +152691,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642272,
-                "firstName": "Jared",
-                "lastName": "McCain",
-                "teamId": 1610612760,
-                "teamCity": "Oklahoma City",
-                "teamName": "Thunder",
-                "teamTricode": "OKC",
-                "points": 20.0
-              },
-              {
                 "personId": 1629012,
                 "firstName": "Collin",
                 "lastName": "Sexton",
@@ -152708,6 +152698,16 @@
                 "teamCity": "Chicago",
                 "teamName": "Bulls",
                 "teamTricode": "CHI",
+                "points": 20.0
+              },
+              {
+                "personId": 1642272,
+                "firstName": "Jared",
+                "lastName": "McCain",
+                "teamId": 1610612760,
+                "teamCity": "Oklahoma City",
+                "teamName": "Thunder",
+                "teamTricode": "OKC",
                 "points": 20.0
               }
             ]
@@ -157087,7 +157087,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -165635,7 +165635,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -166552,7 +166552,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -171146,16 +171146,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 202695,
-                "firstName": "Kawhi",
-                "lastName": "Leonard",
-                "teamId": 1610612746,
-                "teamCity": "LA",
-                "teamName": "Clippers",
-                "teamTricode": "LAC",
-                "points": 25.0
-              },
-              {
                 "personId": 1630180,
                 "firstName": "Saddiq",
                 "lastName": "Bey",
@@ -171163,6 +171153,16 @@
                 "teamCity": "New Orleans",
                 "teamName": "Pelicans",
                 "teamTricode": "NOP",
+                "points": 25.0
+              },
+              {
+                "personId": 202695,
+                "firstName": "Kawhi",
+                "lastName": "Leonard",
+                "teamId": 1610612746,
+                "teamCity": "LA",
+                "teamName": "Clippers",
+                "teamTricode": "LAC",
                 "points": 25.0
               }
             ]
@@ -171560,7 +171560,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -173126,7 +173126,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -174026,7 +174026,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -175091,16 +175091,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642846,
-                "firstName": "Ace",
-                "lastName": "Bailey",
-                "teamId": 1610612762,
-                "teamCity": "Utah",
-                "teamName": "Jazz",
-                "teamTricode": "UTA",
-                "points": 25.0
-              },
-              {
                 "personId": 1629656,
                 "firstName": "Quentin",
                 "lastName": "Grimes",
@@ -175108,6 +175098,16 @@
                 "teamCity": "Philadelphia",
                 "teamName": "76ers",
                 "teamTricode": "PHI",
+                "points": 25.0
+              },
+              {
+                "personId": 1642846,
+                "firstName": "Ace",
+                "lastName": "Bailey",
+                "teamId": 1610612762,
+                "teamCity": "Utah",
+                "teamName": "Jazz",
+                "teamTricode": "UTA",
                 "points": 25.0
               }
             ]
@@ -175150,7 +175150,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -175333,7 +175333,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -176213,16 +176213,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1641713,
-                "firstName": "GG",
-                "lastName": "Jackson",
-                "teamId": 1610612763,
-                "teamCity": "Memphis",
-                "teamName": "Grizzlies",
-                "teamTricode": "MEM",
-                "points": 26.0
-              },
-              {
                 "personId": 1629638,
                 "firstName": "Nickeil",
                 "lastName": "Alexander-Walker",
@@ -176230,6 +176220,16 @@
                 "teamCity": "Atlanta",
                 "teamName": "Hawks",
                 "teamTricode": "ATL",
+                "points": 26.0
+              },
+              {
+                "personId": 1641713,
+                "firstName": "GG",
+                "lastName": "Jackson",
+                "teamId": 1610612763,
+                "teamCity": "Memphis",
+                "teamName": "Grizzlies",
+                "teamTricode": "MEM",
                 "points": 26.0
               }
             ]
@@ -180204,7 +180204,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -180993,7 +180993,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -181902,7 +181902,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -183033,7 +183033,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -183230,7 +183230,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -189826,7 +189826,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -191063,7 +191063,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -191232,7 +191232,7 @@
                   "broadcasterId": 7,
                   "broadcasterDisplay": "NBA TV",
                   "broadcasterAbbreviation": "NBA TV",
-                  "broadcasterDescription": "Watch with League Pass or your TV subscription",
+                  "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -193348,16 +193348,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1641765,
-                "firstName": "Olivier-Maxence",
-                "lastName": "Prosper",
-                "teamId": 1610612763,
-                "teamCity": "Memphis",
-                "teamName": "Grizzlies",
-                "teamTricode": "MEM",
-                "points": 24.0
-              },
-              {
                 "personId": 1630596,
                 "firstName": "Evan",
                 "lastName": "Mobley",
@@ -193365,6 +193355,16 @@
                 "teamCity": "Cleveland",
                 "teamName": "Cavaliers",
                 "teamTricode": "CLE",
+                "points": 24.0
+              },
+              {
+                "personId": 1641765,
+                "firstName": "Olivier-Maxence",
+                "lastName": "Prosper",
+                "teamId": 1610612763,
+                "teamCity": "Memphis",
+                "teamName": "Grizzlies",
+                "teamTricode": "MEM",
                 "points": 24.0
               }
             ]
@@ -196767,16 +196767,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630167,
-                "firstName": "Obi",
-                "lastName": "Toppin",
-                "teamId": 1610612754,
-                "teamCity": "Indiana",
-                "teamName": "Pacers",
-                "teamTricode": "IND",
-                "points": 26.0
-              },
-              {
                 "personId": 1630604,
                 "firstName": "E.J.",
                 "lastName": "Liddell",
@@ -196784,6 +196774,16 @@
                 "teamCity": "Brooklyn",
                 "teamName": "Nets",
                 "teamTricode": "BKN",
+                "points": 26.0
+              },
+              {
+                "personId": 1630167,
+                "firstName": "Obi",
+                "lastName": "Toppin",
+                "teamId": 1610612754,
+                "teamCity": "Indiana",
+                "teamName": "Pacers",
+                "teamTricode": "IND",
                 "points": 26.0
               }
             ]
@@ -199034,16 +199034,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642382,
-                "firstName": "Branden",
-                "lastName": "Carlson",
-                "teamId": 1610612760,
-                "teamCity": "Oklahoma City",
-                "teamName": "Thunder",
-                "teamTricode": "OKC",
-                "points": 23.0
-              },
-              {
                 "personId": 202685,
                 "firstName": "Jonas",
                 "lastName": "Valanciunas",
@@ -199051,6 +199041,16 @@
                 "teamCity": "Denver",
                 "teamName": "Nuggets",
                 "teamTricode": "DEN",
+                "points": 23.0
+              },
+              {
+                "personId": 1642382,
+                "firstName": "Branden",
+                "lastName": "Carlson",
+                "teamId": 1610612760,
+                "teamCity": "Oklahoma City",
+                "teamName": "Thunder",
+                "teamTricode": "OKC",
                 "points": 23.0
               }
             ]
@@ -212159,7 +212159,7 @@
                   "broadcasterAbbreviation": "Peacock",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
-                  "broadcasterVideoLink": "https://www.peacocktv.com/sports/nba?cid=2508sptnbaexterndinapplk26427&utm_campaign=2508sptnba&utm_source=nba_nba_nba&utm_medium=ernd_inapplk_acq_inapbnr&utm_term=nbafans&utm_content=nbaapplinks",
+                  "broadcasterVideoLink": "https://peacocktv.app.link/IvHqwZTD32b",
                   "regionId": 1,
                   "broadcasterTeamId": -1,
                   "broadcasterRanking": 3,
@@ -212302,7 +212302,7 @@
                   "broadcasterAbbreviation": "ESPN",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
-                  "broadcasterVideoLink": "",
+                  "broadcasterVideoLink": "https://espn.smart.link/b4uxwf8ow?ex_cid=NBA&gameId=401871337&referringapp=nba",
                   "regionId": 1,
                   "broadcasterTeamId": -1,
                   "broadcasterRanking": 2,
@@ -212440,7 +212440,7 @@
                   "broadcasterAbbreviation": "ESPN",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
-                  "broadcasterVideoLink": "",
+                  "broadcasterVideoLink": "https://espn.smart.link/b4uxwf8ow?ex_cid=NBA&gameId=401871330&referringapp=nba",
                   "regionId": 1,
                   "broadcasterTeamId": -1,
                   "broadcasterRanking": 2,
@@ -212703,6 +212703,19 @@
                 }
               ],
               "nationalRadioBroadcasters": [
+                {
+                  "broadcasterScope": "natl",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 3,
+                  "broadcasterDisplay": "ESPN Radio",
+                  "broadcasterAbbreviation": "ESPNR",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": -1,
+                  "broadcasterRanking": null
+                },
                 {
                   "broadcasterScope": "natl",
                   "broadcasterMedia": "radio",
@@ -214310,7 +214323,7 @@
         "broadcasterId": 7,
         "broadcasterDisplay": "NBA TV",
         "broadcasterAbbreviation": "NBA TV",
-        "broadcasterDescription": "Watch with League Pass or your TV subscription",
+        "broadcasterDescription": "Watch with NBA League Pass or your TV subscription",
         "regionId": 1
       },
       {

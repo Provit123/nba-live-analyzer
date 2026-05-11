@@ -4,14 +4,9 @@ import axios from 'axios'
 const CORS_PROXY = 'https://api.codetabs.com/v1/proxy?quest='
 const NBA_CDN = 'https://cdn.nba.com/static/json'
 
-// 优先用本地代理（开发模式），否则用CORS代理（生产/APK模式）
-function getBaseUrl() {
-  // 如果Vite dev server代理可用，优先用
-  if (import.meta.env.DEV) {
-    return '/api'
-  }
-  // 生产模式：通过CORS代理直连NBA CDN
-  return `${CORS_PROXY}${encodeURIComponent(NBA_CDN)}`
+// 统一走CORS代理，无需本地后端
+function cdnUrl(path) {
+  return `${CORS_PROXY}${encodeURIComponent(NBA_CDN + path)}`
 }
 
 const apiClient = axios.create({
@@ -19,6 +14,37 @@ const apiClient = axios.create({
 })
 
 // ============ 数据格式转换 ============
+
+// UTC时间转北京时间字符串
+function toBeijingTime(utcStr) {
+  if (!utcStr) return ''
+  try {
+    const d = new Date(utcStr)
+    if (isNaN(d.getTime())) return utcStr
+    // UTC+8 北京时间
+    const bj = new Date(d.getTime() + 8 * 60 * 60 * 1000)
+    const month = bj.getUTCMonth() + 1
+    const day = bj.getUTCDate()
+    const hour = bj.getUTCHours().toString().padStart(2, '0')
+    const min = bj.getUTCMinutes().toString().padStart(2, '0')
+    return `${month}月${day}日 ${hour}:${min}`
+  } catch {
+    return utcStr
+  }
+}
+
+// 北京时间日期字符串（用于历史分组）
+function toBeijingDateStr(utcStr) {
+  if (!utcStr) return ''
+  try {
+    const d = new Date(utcStr)
+    if (isNaN(d.getTime())) return utcStr
+    const bj = new Date(d.getTime() + 8 * 60 * 60 * 1000)
+    return `${bj.getUTCFullYear()}-${(bj.getUTCMonth()+1).toString().padStart(2,'0')}-${bj.getUTCDate().toString().padStart(2,'0')}`
+  } catch {
+    return utcStr
+  }
+}
 
 function parseClock(clock) {
   if (!clock) return ''
@@ -67,10 +93,41 @@ function transformTeam(team) {
 }
 
 function transformScoreboardGame(g) {
+  // 北京时间转换
+  const bjTime = g.gameTimeUTC ? toBeijingTime(g.gameTimeUTC) : ''
   return {
     gameId: g.gameId, gameCode: g.gameCode, gameStatus: g.gameStatus,
     gameStatusText: g.gameStatusText, gameClock: parseClock(g.gameClock),
-    period: g.period, gameTimeLocal: g.gameTimeLocal || '',
+    period: g.period, gameTimeLocal: bjTime,
+    gameTimeUTC: g.gameTimeUTC || '',
+    homeTeam: {
+      teamId: g.homeTeam.teamId, teamCity: g.homeTeam.teamCity,
+      teamName: g.homeTeam.teamName, teamTricode: g.homeTeam.teamTricode,
+      score: g.homeTeam.score, wins: g.homeTeam.wins, losses: g.homeTeam.losses,
+      seriesLead: g.homeTeam.seriesLead,
+    },
+    awayTeam: {
+      teamId: g.awayTeam.teamId, teamCity: g.awayTeam.teamCity,
+      teamName: g.awayTeam.teamName, teamTricode: g.awayTeam.teamTricode,
+      score: g.awayTeam.score, wins: g.awayTeam.wins, losses: g.awayTeam.losses,
+      seriesLead: g.awayTeam.seriesLead,
+    },
+  }
+}
+
+// 从scheduleLeagueV2格式转换为统一格式
+function transformScheduleGame(g) {
+  const isFinished = g.gameStatus === 3
+  // 北京时间转换
+  const bjTime = g.gameDateTimeUTC ? toBeijingTime(g.gameDateTimeUTC) : ''
+  return {
+    gameId: g.gameId, gameCode: g.gameCode, gameStatus: g.gameStatus,
+    gameStatusText: g.gameStatusText, gameClock: '',
+    period: isFinished ? g.regulationPeriods || 4 : 0,
+    gameTimeLocal: bjTime,
+    gameTimeUTC: g.gameDateTimeUTC || '',
+    gameLabel: g.gameLabel || '',
+    seriesText: g.seriesText || '',
     homeTeam: {
       teamId: g.homeTeam.teamId, teamCity: g.homeTeam.teamCity,
       teamName: g.homeTeam.teamName, teamTricode: g.homeTeam.teamTricode,
@@ -92,12 +149,7 @@ export const nbaService = {
   // 获取今日比赛记分板
   async getLiveScoreboard() {
     try {
-      if (import.meta.env.DEV) {
-        const res = await apiClient.get('/api/scoreboard')
-        return res.data
-      }
-      // CORS代理模式：直接请求NBA CDN
-      const url = `${CORS_PROXY}${encodeURIComponent(NBA_CDN + '/liveData/scoreboard/todaysScoreboard_00.json')}`
+      const url = cdnUrl('/liveData/scoreboard/todaysScoreboard_00.json')
       const res = await apiClient.get(url)
       const scoreboard = res.data.scoreboard
       scoreboard.games = (scoreboard.games || []).map(transformScoreboardGame)
@@ -111,12 +163,7 @@ export const nbaService = {
   // 获取比赛详细数据(box score)
   async getBoxScore(gameId) {
     try {
-      if (import.meta.env.DEV) {
-        const res = await apiClient.get(`/api/boxscore/${gameId}`)
-        return res.data
-      }
-      // CORS代理模式
-      const url = `${CORS_PROXY}${encodeURIComponent(NBA_CDN + `/liveData/boxscore/boxscore_${gameId}.json`)}`
+      const url = cdnUrl(`/liveData/boxscore/boxscore_${gameId}.json`)
       const res = await apiClient.get(url)
       const game = res.data.game
       game.homeTeam = transformTeam(game.homeTeam)
@@ -131,17 +178,63 @@ export const nbaService = {
   // 获取play-by-play数据
   async getPlayByPlay(gameId) {
     try {
-      if (import.meta.env.DEV) {
-        const res = await apiClient.get(`/api/pbp/${gameId}`)
-        return res.data
-      }
-      // CORS代理模式
-      const url = `${CORS_PROXY}${encodeURIComponent(NBA_CDN + `/liveData/playbyplay/playbyplay_${gameId}.json`)}`
+      const url = cdnUrl(`/liveData/playbyplay/playbyplay_${gameId}.json`)
       const res = await apiClient.get(url)
       return res.data.game
     } catch (e) {
       console.error('获取比赛进程失败:', e)
       return null
+    }
+  },
+
+  // 获取过去N天的比赛 + 未来M天的赛程
+  async getRecentGames(days = 10, futureDays = 2) {
+    try {
+      const url = cdnUrl('/staticData/scheduleLeagueV2_1.json')
+      const res = await apiClient.get(url, { timeout: 30000 })
+      const gameDates = res.data.leagueSchedule.gameDates
+      
+      const now = new Date()
+      const cutoff = new Date(now.getTime() - days * 24 * 60 * 60 * 1000)
+      const futureCutoff = new Date(now.getTime() + futureDays * 24 * 60 * 60 * 1000)
+      
+      // 收集所有比赛并按北京时间日期分组
+      const allGames = []
+      for (const dateGroup of gameDates) {
+        for (const g of dateGroup.games) {
+          if (g.gameStatus !== 3 && g.gameStatus !== 2 && g.gameStatus !== 1) continue
+          // 用UTC时间算北京时间日期
+          const bjDate = toBeijingDateStr(g.gameDateTimeUTC)
+          const gameDate = new Date(g.gameDateTimeUTC)
+          if (gameDate < cutoff) continue
+          if (gameDate > futureCutoff) continue // 超过未来M天不算
+          const game = transformScheduleGame(g)
+          // 标记未来比赛
+          if (gameDate > now) {
+            game.isUpcoming = true
+          }
+          allGames.push({ bjDate, game })
+        }
+      }
+      
+      // 按北京时间日期分组
+      const grouped = {}
+      for (const item of allGames) {
+        if (!grouped[item.bjDate]) {
+          grouped[item.bjDate] = []
+        }
+        grouped[item.bjDate].push(item.game)
+      }
+      
+      // 转为数组，按日期倒序
+      const result = Object.entries(grouped)
+        .map(([date, games]) => ({ date, games }))
+        .sort((a, b) => b.date.localeCompare(a.date))
+      
+      return result
+    } catch (e) {
+      console.error('获取历史比赛失败:', e)
+      return []
     }
   },
 

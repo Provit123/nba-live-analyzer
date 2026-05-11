@@ -14,7 +14,12 @@
       <button 
         :class="['tab-btn', activeTab === 'games' && 'active']" 
         @click="activeTab = 'games'">
-        🏀 比赛
+        🏀 今日
+      </button>
+      <button 
+        :class="['tab-btn', activeTab === 'history' && 'active']" 
+        @click="activeTab = 'history'; loadHistory()">
+        📅 历史
       </button>
       <button 
         :class="['tab-btn', activeTab === 'detail' && 'active']" 
@@ -26,7 +31,7 @@
         :class="['tab-btn', activeTab === 'analysis' && 'active']" 
         @click="activeTab = 'analysis'"
         :disabled="!selectedGame">
-        🧠 AI分析
+        🧠 分析
       </button>
     </nav>
 
@@ -40,6 +45,52 @@
     <div v-else-if="error" class="error">
       <p>❌ {{ error }}</p>
       <button class="retry-btn" @click="loadData">重试</button>
+    </div>
+
+    <!-- History Tab -->
+    <div v-else-if="activeTab === 'history'" class="tab-content">
+      <div v-if="historyLoading" class="loading">
+        <div class="spinner"></div>
+        <p>正在加载历史比赛...</p>
+      </div>
+      <div v-else-if="historyGames.length === 0" class="empty">
+        <p>📭 暂无历史比赛数据</p>
+      </div>
+      <div v-else class="history-list">
+        <div v-for="dayGroup in historyGames" :key="dayGroup.date" class="history-day">
+          <div class="day-header">📅 {{ formatHistoryDate(dayGroup.date) }}</div>
+          <div 
+            v-for="game in dayGroup.games" 
+            :key="game.gameId"
+            :class="['game-card', selectedGame?.gameId === game.gameId && 'selected', isFinished(game) && 'finished', game.isUpcoming && 'upcoming']"
+            @click="selectGame(game)">
+            <div class="game-status-bar">
+              <span :class="['status-badge', isFinished(game) ? 'finished' : game.isUpcoming ? 'upcoming' : '']">
+                {{ game.isUpcoming ? '📅' : '' }} {{ getHistoryStatusText(game) }}
+              </span>
+              <span v-if="game.gameLabel" class="game-label-tag">{{ game.gameLabel }}</span>
+              <span v-if="game.isUpcoming" class="predict-tag">🧠 预测</span>
+            </div>
+            <div class="game-teams">
+              <div class="team-row">
+                <span class="team-city">{{ game.homeTeam.teamCity }}</span>
+                <span class="team-name">{{ game.homeTeam.teamName }}</span>
+                <span :class="['team-score', isFinished(game) && parseInt(game.homeTeam.score) > parseInt(game.awayTeam.score) && 'winner']">
+                  {{ game.homeTeam.score || 0 }}
+                </span>
+              </div>
+              <div class="team-row">
+                <span class="team-city">{{ game.awayTeam.teamCity }}</span>
+                <span class="team-name">{{ game.awayTeam.teamName }}</span>
+                <span :class="['team-score', isFinished(game) && parseInt(game.awayTeam.score) > parseInt(game.homeTeam.score) && 'winner']">
+                  {{ game.awayTeam.score || 0 }}
+                </span>
+              </div>
+            </div>
+            <div v-if="game.seriesText" class="series-text">{{ game.seriesText }}</div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Games Tab -->
@@ -77,7 +128,84 @@
 
     <!-- Detail Tab -->
     <div v-else-if="activeTab === 'detail' && selectedGame" class="tab-content">
-      <!-- Scoreboard -->
+      <!-- 未来比赛：赛前预测概览 -->
+      <template v-if="selectedGame.isUpcoming && preGamePrediction">
+        <div class="scoreboard upcoming-scoreboard">
+          <div class="sb-team sb-home">
+            <div class="sb-team-info">
+              <span class="sb-city">{{ selectedGame.homeTeam.teamCity }}</span>
+              <span class="sb-name">{{ selectedGame.homeTeam.teamName }}</span>
+            </div>
+            <div class="sb-record">{{ preGamePrediction.homeRecord }}</div>
+          </div>
+          <div class="sb-center">
+            <div class="sb-period upcoming-label">VS</div>
+            <div class="sb-clock upcoming-time">{{ selectedGame.gameTimeLocal }}</div>
+          </div>
+          <div class="sb-team sb-away">
+            <div class="sb-team-info">
+              <span class="sb-city">{{ selectedGame.awayTeam.teamCity }}</span>
+              <span class="sb-name">{{ selectedGame.awayTeam.teamName }}</span>
+            </div>
+            <div class="sb-record">{{ preGamePrediction.awayRecord }}</div>
+          </div>
+        </div>
+
+        <!-- 胜率预测 -->
+        <div class="analysis-card">
+          <h3 class="section-title">🎯 胜率预测</h3>
+          <div class="win-prob-container">
+            <div class="win-prob-team">
+              <span class="wp-city">{{ selectedGame.homeTeam.teamCity }}</span>
+              <span class="wp-pct">{{ Math.round(preGamePrediction.homeWinProb * 100) }}%</span>
+            </div>
+            <div class="win-prob-bar">
+              <div 
+                class="wp-bar-home" 
+                :style="{ width: Math.round(preGamePrediction.homeWinProb * 100) + '%' }">
+              </div>
+            </div>
+            <div class="win-prob-team">
+              <span class="wp-city">{{ selectedGame.awayTeam.teamCity }}</span>
+              <span class="wp-pct">{{ Math.round(preGamePrediction.awayWinProb * 100) }}%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 比分预测 -->
+        <div class="analysis-card">
+          <h3 class="section-title">🔮 比分预测</h3>
+          <div class="prediction">
+            <div class="pred-team">
+              <span class="pred-city">{{ selectedGame.homeTeam.teamCity }}</span>
+              <span class="pred-score">{{ preGamePrediction.homePredScore }}</span>
+            </div>
+            <span class="pred-vs">VS</span>
+            <div class="pred-team">
+              <span class="pred-city">{{ selectedGame.awayTeam.teamCity }}</span>
+              <span class="pred-score">{{ preGamePrediction.awayPredScore }}</span>
+            </div>
+          </div>
+          <div class="pred-confidence">置信度: {{ preGamePrediction.confidence }}%</div>
+        </div>
+
+        <!-- 关键看点 -->
+        <div class="analysis-card">
+          <h3 class="section-title">👀 关键看点</h3>
+          <div class="insights-list">
+            <div v-for="(item, i) in preGamePrediction.highlights" :key="i" class="insight-item">
+              <div class="insight-icon">{{ item.icon }}</div>
+              <div class="insight-content">
+                <h4>{{ item.title }}</h4>
+                <p>{{ item.text }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </template>
+
+      <!-- 已结束/进行中比赛 -->
+      <template v-else>
       <div class="scoreboard">
         <div class="sb-team sb-home">
           <div class="sb-team-info">
@@ -161,31 +289,163 @@
           </div>
         </div>
       </div>
+      </template>
     </div>
 
     <!-- Analysis Tab -->
     <div v-else-if="activeTab === 'analysis' && selectedGame" class="tab-content">
-      <!-- Win Probability -->
-      <div class="analysis-card">
-        <h3 class="section-title">🎯 胜率预测</h3>
-        <div class="win-prob-container">
-          <div class="win-prob-team">
-            <span class="wp-city">{{ selectedGame.homeTeam.teamCity }}</span>
-            <span class="wp-pct">{{ analysis.winProbability ? Math.round(analysis.winProbability * 100) : 50 }}%</span>
-          </div>
-          <div class="win-prob-bar">
-            <div 
-              class="wp-bar-home" 
-              :style="{ width: (analysis.winProbability ? Math.round(analysis.winProbability * 100) : 50) + '%' }">
+      <!-- 未来比赛：赛前深度分析 -->
+      <template v-if="selectedGame.isUpcoming && preGamePrediction">
+        <!-- 战绩对比 -->
+        <div class="analysis-card">
+          <h3 class="section-title">📊 战绩对比</h3>
+          <div class="record-compare">
+            <div class="record-team">
+              <span class="record-city">{{ selectedGame.homeTeam.teamCity }}</span>
+              <span class="record-val">{{ preGamePrediction.homeRecord }}</span>
+              <span class="record-label">主场</span>
+            </div>
+            <div class="record-vs">VS</div>
+            <div class="record-team">
+              <span class="record-city">{{ selectedGame.awayTeam.teamCity }}</span>
+              <span class="record-val">{{ preGamePrediction.awayRecord }}</span>
+              <span class="record-label">客场</span>
             </div>
           </div>
-          <div class="win-prob-team">
-            <span class="wp-city">{{ selectedGame.awayTeam.teamCity }}</span>
-            <span class="wp-pct">{{ analysis.winProbability ? Math.round((1 - analysis.winProbability) * 100) : 50 }}%</span>
+        </div>
+
+        <!-- 球员阵容 -->
+        <div class="analysis-card" v-if="rosterAnalysis">
+          <h3 class="section-title">👤 球员阵容</h3>
+          <div class="roster-section">
+            <div class="roster-team">
+              <h4 class="roster-team-name">{{ rosterAnalysis.home.city }}</h4>
+              <div class="roster-stars">
+                <span v-for="(star, i) in rosterAnalysis.home.activeStars" :key="'a'+i" class="roster-star">⭐ {{ star }}</span>
+                <span v-for="(star, i) in rosterAnalysis.home.injuredStars" :key="'i'+i" class="roster-star injured-star">🏥 {{ star.name }}</span>
+              </div>
+            </div>
+            <div class="roster-divider">VS</div>
+            <div class="roster-team">
+              <h4 class="roster-team-name">{{ rosterAnalysis.away.city }}</h4>
+              <div class="roster-stars">
+                <span v-for="(star, i) in rosterAnalysis.away.activeStars" :key="'a'+i" class="roster-star">⭐ {{ star }}</span>
+                <span v-for="(star, i) in rosterAnalysis.away.injuredStars" :key="'i'+i" class="roster-star injured-star">🏥 {{ star.name }}</span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
+        <!-- 球队打法 -->
+        <div class="analysis-card" v-if="rosterAnalysis">
+          <h3 class="section-title">🏀 球队打法</h3>
+          <div class="style-section">
+            <div class="style-team">
+              <h4 class="style-team-name">{{ rosterAnalysis.home.city }}</h4>
+              <p class="style-desc">{{ rosterAnalysis.home.style }}</p>
+            </div>
+            <div class="style-team">
+              <h4 class="style-team-name">{{ rosterAnalysis.away.city }}</h4>
+              <p class="style-desc">{{ rosterAnalysis.away.style }}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 对位看点 -->
+        <div class="analysis-card" v-if="rosterAnalysis && rosterAnalysis.matchupInsights.length > 0">
+          <h3 class="section-title">⚔️ 对位看点</h3>
+          <div class="insights-list">
+            <div v-for="(item, i) in rosterAnalysis.matchupInsights" :key="i" class="insight-item">
+              <div class="insight-icon">{{ item.icon }}</div>
+              <div class="insight-content">
+                <h4>{{ item.title }}</h4>
+                <p>{{ item.text }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </template>
+
+      <!-- 已结束比赛：赛后总结 -->
+      <template v-if="isFinished(selectedGame) && postGameSummary">
+        <div class="analysis-card summary-header">
+          <div class="summary-result">
+            <span class="summary-winner">🏆 {{ postGameSummary.winner.name }}</span>
+            <span class="summary-score">
+              {{ postGameSummary.winner.score }} - {{ postGameSummary.loser.score }}
+            </span>
+          </div>
+          <div class="summary-type">{{ postGameSummary.gameType }}</div>
+          <div v-if="postGameSummary.scoreDiff <= 3" class="summary-close">⚠️ 险胜！仅差{{ postGameSummary.scoreDiff }}分</div>
+        </div>
+
+        <!-- MVP -->
+        <div class="analysis-card" v-if="postGameSummary.mvp">
+          <h3 class="section-title">⭐ 全场最佳</h3>
+          <div class="mvp-display">
+            <div class="mvp-name">{{ postGameSummary.mvp.name }}</div>
+            <div class="mvp-stats">
+              <span class="mvp-stat">{{ postGameSummary.mvp.pts }}分</span>
+              <span class="mvp-stat">{{ postGameSummary.mvp.reb }}板</span>
+              <span class="mvp-stat">{{ postGameSummary.mvp.ast }}助</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 效率王 -->
+        <div class="analysis-card" v-if="postGameSummary.efficiencyKing">
+          <h3 class="section-title">📈 效率之王</h3>
+          <div class="mvp-display">
+            <div class="mvp-name">{{ postGameSummary.efficiencyKing.name }}</div>
+            <div class="mvp-stats">
+              <span class="mvp-stat">效率值 {{ postGameSummary.efficiencyKing.efficiency }}</span>
+              <span class="mvp-stat">{{ postGameSummary.efficiencyKing.pts }}分</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 板凳匪徒 -->
+        <div class="analysis-card" v-if="postGameSummary.benchMvp">
+          <h3 class="section-title">🔥 板凳匪徒</h3>
+          <div class="mvp-display">
+            <div class="mvp-name">{{ postGameSummary.benchMvp.name }}</div>
+            <div class="mvp-stats">
+              <span class="mvp-stat">替补 {{ postGameSummary.benchMvp.pts }}分</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 关键因素 -->
+        <div class="analysis-card">
+          <h3 class="section-title">🔑 胜负关键</h3>
+          <div class="insights-list">
+            <div v-for="(factor, i) in postGameSummary.keyFactors" :key="i" class="insight-item">
+              <div class="insight-icon">{{ factor.icon }}</div>
+              <div class="insight-content">
+                <h4>{{ factor.title }}</h4>
+                <p>{{ factor.text }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 数据优势对比 -->
+        <div class="analysis-card" v-if="postGameSummary.statAdvantages.length > 0">
+          <h3 class="section-title">📊 数据优势分布</h3>
+          <div class="advantage-grid">
+            <div 
+              v-for="adv in postGameSummary.statAdvantages" 
+              :key="adv.label"
+              :class="['advantage-item', adv.team === 'home' ? 'adv-home' : 'adv-away']">
+              <span class="adv-label">{{ adv.label }}</span>
+              <span class="adv-team">{{ adv.team === 'home' ? selectedGame.homeTeam.teamTricode : selectedGame.awayTeam.teamTricode }}</span>
+            </div>
+          </div>
+        </div>
+      </template>
+
+      <!-- 进行中/未开始比赛：比分预测 -->
+      <template v-else>
       <!-- Predicted Score -->
       <div class="analysis-card" v-if="analysis.prediction">
         <h3 class="section-title">🔮 最终比分预测</h3>
@@ -202,51 +462,7 @@
         </div>
         <div class="pred-confidence">置信度: {{ analysis.prediction.confidence }}%</div>
       </div>
-
-      <!-- Momentum -->
-      <div class="analysis-card" v-if="analysis.momentum">
-        <h3 class="section-title">🚀 比赛势头</h3>
-        <div class="momentum-display">
-          <div class="momentum-meter">
-            <div 
-              :class="['momentum-bar', analysis.momentum.trend]" 
-              :style="{ width: Math.min(100, 50 + analysis.momentum.momentum * 2) + '%' }">
-            </div>
-          </div>
-          <div class="momentum-labels">
-            <span>{{ selectedGame.awayTeam.teamCity }}</span>
-            <span>{{ selectedGame.homeTeam.teamCity }}</span>
-          </div>
-          <p class="momentum-desc">
-            <template v-if="analysis.momentum.trend === 'hot'">
-              🔥 {{ selectedGame.homeTeam.teamCity }} 掌控势头
-            </template>
-            <template v-else-if="analysis.momentum.trend === 'cold'">
-              🛑 {{ selectedGame.awayTeam.teamCity }} 掌控势头
-            </template>
-            <template v-else>
-              ⚖️ 双方势头均衡
-            </template>
-          </p>
-        </div>
-      </div>
-
-      <!-- AI Insights -->
-      <div class="analysis-card">
-        <h3 class="section-title">🧠 AI 深度洞察</h3>
-        <div class="insights-list">
-          <div v-for="(insight, i) in analysis.insights" :key="i" class="insight-item">
-            <div class="insight-icon">{{ insight.icon }}</div>
-            <div class="insight-content">
-              <h4>{{ insight.title }}</h4>
-              <p>{{ insight.text }}</p>
-            </div>
-          </div>
-          <div v-if="analysis.insights.length === 0" class="insight-empty">
-            比赛开始后将显示AI分析
-          </div>
-        </div>
-      </div>
+      </template>
     </div>
 
     <!-- Refresh indicator -->
@@ -272,6 +488,11 @@ export default {
     const activeTab = ref('games')
     const playerTab = ref('home')
     const analysis = ref({ winProbability: null, momentum: null, prediction: null, insights: [] })
+    const postGameSummary = ref(null)
+    const preGamePrediction = ref(null)
+    const rosterAnalysis = ref(null)
+    const historyGames = ref([])
+    const historyLoading = ref(false)
     const currentTime = ref('')
     const refreshCountdown = ref(30)
     const refreshTimer = ref(null)
@@ -325,7 +546,9 @@ export default {
       if (game.gameStatus === '3' || game.gameStatus === 3) return '🏁 已结束'
       if (game.gameStatus === '2' || game.gameStatus === 2) return '🏀 ' + (game.gameStatusText || '进行中')
       if (game.gameStatus === '1' || game.gameStatus === 1) return '🏀 ' + (game.gameStatusText || '进行中')
-      return '📅 ' + (game.gameTimeLocal || game.gameStatusText || '待定')
+      // 未开始：显示北京时间
+      if (game.gameTimeLocal) return '📅 ' + game.gameTimeLocal
+      return '📅 ' + (game.gameStatusText || '待定')
     }
 
     function getPeriodText(game) {
@@ -401,10 +624,55 @@ export default {
       loading.value = false
     }
 
+    function isFinished(game) {
+      const s = game.gameStatus
+      return s === '3' || s === 3
+    }
+
+    function getHistoryStatusText(game) {
+      if (game.isUpcoming) return game.gameTimeLocal || '即将开赛'
+      if (isFinished(game)) return '已结束'
+      if (isLive(game)) return game.gameStatusText || '进行中'
+      return game.gameStatusText || game.gameTimeLocal || '待定'
+    }
+
+    function formatHistoryDate(dateStr) {
+      // dateStr format: "2026-05-11" (已经是北京时间日期)
+      const parts = dateStr.split('-')
+      const d = new Date(parseInt(parts[0]), parseInt(parts[1])-1, parseInt(parts[2]))
+      const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
+      return `${parseInt(parts[1])}月${parseInt(parts[2])}日 ${weekdays[d.getDay()]}`
+    }
+
+    async function loadHistory() {
+      if (historyGames.value.length > 0) return // 已加载过就跳过
+      historyLoading.value = true
+      try {
+        const schedule = await nbaService.getRecentGames(10)
+        if (schedule && schedule.length > 0) {
+          historyGames.value = schedule
+        }
+      } catch (e) {
+        console.error('加载历史比赛失败:', e)
+      }
+      historyLoading.value = false
+    }
+
     async function selectGame(game) {
       selectedGame.value = game
       activeTab.value = 'detail'
       boxScore.value = null
+      postGameSummary.value = null
+      preGamePrediction.value = null
+      rosterAnalysis.value = null
+      
+      // 未来比赛：赛前预测
+      if (game.isUpcoming) {
+        preGamePrediction.value = aiEngine.generatePreGamePrediction(game)
+        rosterAnalysis.value = aiEngine.analyzeRoster(game)
+        analysis.value = { winProbability: null, momentum: null, prediction: null, insights: [] }
+        return
+      }
       
       // Load box score
       try {
@@ -416,8 +684,27 @@ export default {
         console.error('Failed to load box score:', e)
       }
       
-      // Run AI analysis
-      runAnalysis()
+      // 已结束比赛：生成赛后总结
+      if (isFinished(game)) {
+        const gameForAnalysis = {
+          ...game,
+          homeTeam: {
+            ...game.homeTeam,
+            players: boxScore.value?.homeTeam?.players || [],
+            statistics: boxScore.value?.homeTeam?.statistics || null
+          },
+          awayTeam: {
+            ...game.awayTeam,
+            players: boxScore.value?.awayTeam?.players || [],
+            statistics: boxScore.value?.awayTeam?.statistics || null
+          }
+        }
+        postGameSummary.value = aiEngine.generatePostGameSummary(gameForAnalysis)
+        analysis.value = { winProbability: null, momentum: null, prediction: null, insights: [] }
+      } else {
+        // 进行中/未开始：运行AI预测分析
+        runAnalysis()
+      }
     }
 
     function runAnalysis() {
@@ -427,7 +714,7 @@ export default {
 
     function updateClock() {
       const now = new Date()
-      currentTime.value = now.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' })
+      currentTime.value = now.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Hong_Kong' })
     }
 
     function startAutoRefresh() {
@@ -461,10 +748,12 @@ export default {
 
     return {
       loading, error, games, selectedGame, boxScore, activeTab, playerTab,
-      analysis, currentTime, refreshCountdown,
+      analysis, postGameSummary, preGamePrediction, rosterAnalysis, historyGames, historyLoading,
+      currentTime, refreshCountdown,
       hasLiveGames, homeStats, awayStats, currentTeamPlayers,
-      isLive, getStatusText, getPeriodText, formatClock, getBarWidth, getPlayerEfficiency, formatStat,
-      loadData, selectGame, teamStatKeys
+      isLive, isFinished, getStatusText, getHistoryStatusText, getPeriodText, formatClock, formatHistoryDate,
+      getBarWidth, getPlayerEfficiency, formatStat,
+      loadData, selectGame, loadHistory, teamStatKeys
     }
   }
 }
@@ -967,11 +1256,79 @@ body {
   line-height: 1.5;
 }
 
+.injured-star {
+  text-decoration: line-through;
+  opacity: 0.5;
+  color: #e74c3c;
+  font-size: 0.85em;
+}
+
 .insight-empty {
   text-align: center;
   color: var(--muted);
   padding: 20px;
   font-size: 14px;
+}
+
+/* Roster Section */
+.roster-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.roster-team {
+  flex: 1;
+}
+.roster-team-name {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--home);
+}
+.roster-team:last-child .roster-team-name {
+  color: var(--away);
+}
+.roster-stars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.roster-star {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.4;
+}
+.roster-divider {
+  font-weight: 900;
+  color: var(--muted);
+  font-size: 16px;
+  padding-top: 4px;
+}
+
+/* Style Section */
+.style-section {
+  display: flex;
+  gap: 12px;
+}
+.style-team {
+  flex: 1;
+}
+.style-team-name {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--home);
+}
+.style-team:last-child .style-team-name {
+  color: var(--away);
+}
+.style-desc {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.6;
+  background: var(--bg);
+  padding: 10px 12px;
+  border-radius: 8px;
 }
 
 .stat-placeholder {
@@ -993,5 +1350,229 @@ body {
   font-size: 12px;
   color: var(--muted);
   z-index: 100;
+}
+
+/* Post-Game Summary */
+.summary-header {
+  text-align: center;
+}
+
+.summary-result {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.summary-winner {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.summary-score {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.summary-type {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.summary-close {
+  font-size: 13px;
+  color: var(--danger);
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.mvp-display {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.mvp-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.mvp-stats {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 6px;
+}
+
+.mvp-stat {
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.advantage-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.advantage-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.advantage-item.adv-home {
+  background: rgba(255, 107, 53, 0.12);
+  color: var(--home);
+}
+
+.advantage-item.adv-away {
+  background: rgba(26, 115, 232, 0.12);
+  color: var(--away);
+}
+
+.adv-label {
+  font-weight: 700;
+}
+
+.adv-team {
+  opacity: 0.8;
+}
+
+/* History List */
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.history-day {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.day-header {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--muted);
+  padding: 4px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.game-card.finished {
+  opacity: 0.85;
+}
+
+.game-status-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.game-label-tag {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: rgba(255, 107, 53, 0.15);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.series-text {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.team-score.winner {
+  color: var(--success);
+  font-weight: 800;
+}
+
+/* Upcoming Games */
+.game-card.upcoming {
+  border-left: 3px solid var(--accent2);
+  background: rgba(26, 115, 232, 0.04);
+}
+
+.game-card.upcoming:hover {
+  background: rgba(26, 115, 232, 0.08);
+}
+
+.status-badge.upcoming {
+  color: var(--accent2);
+  font-weight: 600;
+}
+
+.predict-tag {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: rgba(26, 115, 232, 0.15);
+  color: var(--accent2);
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.upcoming-scoreboard .sb-record {
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.upcoming-label {
+  color: var(--accent) !important;
+}
+
+.upcoming-time {
+  font-size: 14px !important;
+  color: var(--muted) !important;
+}
+
+/* Record Compare */
+.record-compare {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.record-team {
+  text-align: center;
+}
+
+.record-city {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.record-val {
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.record-label {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.record-vs {
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 700;
 }
 </style>

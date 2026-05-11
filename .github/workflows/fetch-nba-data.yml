@@ -1,0 +1,74 @@
+name: Fetch NBA Data
+
+on:
+  schedule:
+    # 每30分钟运行一次（实际可能有5-10分钟延迟）
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          fetch-depth: 1
+
+      - name: Fetch NBA live data
+        env:
+          UA: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+        run: |
+          mkdir -p data
+
+          # 1. 抓取今日比分
+          curl -s -f -o data/scoreboard.json \
+            -H "User-Agent: $UA" \
+            -H "Referer: https://www.nba.com/" \
+            "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json" \
+            && echo "scoreboard OK" || echo "scoreboard FAIL"
+
+          # 2. 抓取赛程
+          curl -s -f -o data/schedule.json \
+            -H "User-Agent: $UA" \
+            -H "Referer: https://www.nba.com/" \
+            "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json" \
+            && echo "schedule OK" || echo "schedule FAIL"
+
+          # 3. 从scoreboard提取gameId，抓boxscore和playbyplay
+          if [ -f data/scoreboard.json ] && command -v jq &>/dev/null; then
+            GAME_IDS=$(jq -r '.scoreboard.games[].gameId' data/scoreboard.json 2>/dev/null || true)
+            for gid in $GAME_IDS; do
+              curl -s -f -o "data/boxscore_${gid}.json" \
+                -H "User-Agent: $UA" \
+                -H "Referer: https://www.nba.com/" \
+                "https://cdn.nba.com/static/json/liveData/boxscore/boxscore_${gid}.json" \
+                && echo "boxscore ${gid} OK" || echo "boxscore ${gid} FAIL"
+
+              curl -s -f -o "data/playbyplay_${gid}.json" \
+                -H "User-Agent: $UA" \
+                -H "Referer: https://www.nba.com/" \
+                "https://cdn.nba.com/static/json/liveData/playbyplay/playbyplay_${gid}.json" \
+                && echo "playbyplay ${gid} OK" || echo "playbyplay ${gid} FAIL"
+            done
+          fi
+
+          # 4. 清理超过2天的旧boxscore/playbyplay文件
+          find data/ -name "boxscore_*.json" -mtime +2 -delete 2>/dev/null || true
+          find data/ -name "playbyplay_*.json" -mtime +2 -delete 2>/dev/null || true
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "nba-data: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

@@ -1,12 +1,27 @@
 import axios from 'axios'
 
-// CORS代理 + NBA CDN 直连（无需后端服务器）
-const CORS_PROXY = 'https://api.codetabs.com/v1/proxy?quest='
+// 数据源：优先同域 /data/ 目录，CORS代理作为fallback
+const CORS_PROXY = 'https://nba-proxy.2864696329.workers.dev'
 const NBA_CDN = 'https://cdn.nba.com/static/json'
 
-// 统一走CORS代理，无需本地后端
-function cdnUrl(path) {
-  return `${CORS_PROXY}${encodeURIComponent(NBA_CDN + path)}`
+// 同域数据路径映射
+const DATA_MAP = {
+  '/liveData/scoreboard/todaysScoreboard_00.json': '/data/scoreboard.json',
+  '/staticData/scheduleLeagueV2_1.json': '/data/schedule.json',
+}
+
+function cdnUrl(nbaPath) {
+  // 1. 先尝试同域 /data/ 路径
+  if (DATA_MAP[nbaPath]) {
+    return DATA_MAP[nbaPath]
+  }
+  // 2. boxscore / playbyplay 按gameId映射
+  const boxMatch = nbaPath.match(/\/liveData\/boxscore\/boxscore_(\d+)\.json/)
+  if (boxMatch) return `/data/boxscore_${boxMatch[1]}.json`
+  const pbpMatch = nbaPath.match(/\/liveData\/playbyplay\/playbyplay_(\d+)\.json/)
+  if (pbpMatch) return `/data/playbyplay_${pbpMatch[1]}.json`
+  // 3. fallback到CORS代理
+  return `${CORS_PROXY}?path=${nbaPath}`
 }
 
 const apiClient = axios.create({

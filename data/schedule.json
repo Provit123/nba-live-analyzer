@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "http://nba.cloud/league/00/2025-26/scheduleleaguev2?Format=json",
-    "time": "2026-05-11T17:01:34.134Z"
+    "time": "2026-05-11T22:47:38.4738Z"
   },
   "leagueSchedule": {
     "seasonYear": "2025-26",
@@ -31952,16 +31952,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 203897,
-                "firstName": "Zach",
-                "lastName": "LaVine",
-                "teamId": 1610612758,
-                "teamCity": "Sacramento",
-                "teamName": "Kings",
-                "teamTricode": "SAC",
-                "points": 26.0
-              },
-              {
                 "personId": 1630162,
                 "firstName": "Anthony",
                 "lastName": "Edwards",
@@ -31969,6 +31959,16 @@
                 "teamCity": "Minnesota",
                 "teamName": "Timberwolves",
                 "teamTricode": "MIN",
+                "points": 26.0
+              },
+              {
+                "personId": 203897,
+                "firstName": "Zach",
+                "lastName": "LaVine",
+                "teamId": 1610612758,
+                "teamCity": "Sacramento",
+                "teamName": "Kings",
+                "teamTricode": "SAC",
                 "points": 26.0
               }
             ]
@@ -90378,16 +90378,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1629008,
-                "firstName": "Michael",
-                "lastName": "Porter Jr.",
-                "teamId": 1610612751,
-                "teamCity": "Brooklyn",
-                "teamName": "Nets",
-                "teamTricode": "BKN",
-                "points": 27.0
-              },
-              {
                 "personId": 1627750,
                 "firstName": "Jamal",
                 "lastName": "Murray",
@@ -90395,6 +90385,16 @@
                 "teamCity": "Denver",
                 "teamName": "Nuggets",
                 "teamTricode": "DEN",
+                "points": 27.0
+              },
+              {
+                "personId": 1629008,
+                "firstName": "Michael",
+                "lastName": "Porter Jr.",
+                "teamId": 1610612751,
+                "teamCity": "Brooklyn",
+                "teamName": "Nets",
+                "teamTricode": "BKN",
                 "points": 27.0
               }
             ]
@@ -111166,16 +111166,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 201566,
-                "firstName": "Russell",
-                "lastName": "Westbrook",
-                "teamId": 1610612758,
-                "teamCity": "Sacramento",
-                "teamName": "Kings",
-                "teamTricode": "SAC",
-                "points": 23.0
-              },
-              {
                 "personId": 1627742,
                 "firstName": "Brandon",
                 "lastName": "Ingram",
@@ -111193,6 +111183,16 @@
                 "teamCity": "Toronto",
                 "teamName": "Raptors",
                 "teamTricode": "TOR",
+                "points": 23.0
+              },
+              {
+                "personId": 201566,
+                "firstName": "Russell",
+                "lastName": "Westbrook",
+                "teamId": 1610612758,
+                "teamCity": "Sacramento",
+                "teamName": "Kings",
+                "teamTricode": "SAC",
                 "points": 23.0
               }
             ]
@@ -118536,16 +118536,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1641706,
-                "firstName": "Brandon",
-                "lastName": "Miller",
-                "teamId": 1610612766,
-                "teamCity": "Charlotte",
-                "teamName": "Hornets",
-                "teamTricode": "CHA",
-                "points": 26.0
-              },
-              {
                 "personId": 1628991,
                 "firstName": "Jaren",
                 "lastName": "Jackson Jr.",
@@ -118553,6 +118543,16 @@
                 "teamCity": "Memphis",
                 "teamName": "Grizzlies",
                 "teamTricode": "MEM",
+                "points": 26.0
+              },
+              {
+                "personId": 1641706,
+                "firstName": "Brandon",
+                "lastName": "Miller",
+                "teamId": 1610612766,
+                "teamCity": "Charlotte",
+                "teamName": "Hornets",
+                "teamTricode": "CHA",
                 "points": 26.0
               }
             ]
@@ -211839,8 +211839,8 @@
           {
             "gameId": "0042500204",
             "gameCode": "20260511/DETCLE",
-            "gameStatus": 1,
-            "gameStatusText": "8:00 pm ET",
+            "gameStatus": 3,
+            "gameStatusText": "Final",
             "gameSequence": 1,
             "gameDateEst": "2026-05-11T00:00:00Z",
             "gameTimeEst": "1900-01-01T20:00:00Z",
@@ -211858,7 +211858,7 @@
             "seriesGameNumber": "Game 4",
             "gameLabel": "East Conf. Semifinals",
             "gameSubLabel": "Game 4",
-            "seriesText": "DET leads 2-1",
+            "seriesText": "Series tied 2-2",
             "arenaName": "Rocket Arena",
             "arenaState": "OH",
             "arenaCity": "Cleveland",
@@ -211957,9 +211957,9 @@
               "teamCity": "Cleveland",
               "teamTricode": "CLE",
               "teamSlug": "cavaliers",
-              "wins": 1,
+              "wins": 2,
               "losses": 2,
-              "score": 0,
+              "score": 112,
               "seed": 4
             },
             "awayTeam": {
@@ -211969,11 +211969,22 @@
               "teamTricode": "DET",
               "teamSlug": "pistons",
               "wins": 2,
-              "losses": 1,
-              "score": 0,
+              "losses": 2,
+              "score": 103,
               "seed": 1
             },
-            "pointsLeaders": []
+            "pointsLeaders": [
+              {
+                "personId": 1628378,
+                "firstName": "Donovan",
+                "lastName": "Mitchell",
+                "teamId": 1610612739,
+                "teamCity": "Cleveland",
+                "teamName": "Cavaliers",
+                "teamTricode": "CLE",
+                "points": 43.0
+              }
+            ]
           },
           {
             "gameId": "0042500224",
@@ -212284,7 +212295,7 @@
             "seriesGameNumber": "Game 5",
             "gameLabel": "East Conf. Semifinals",
             "gameSubLabel": "Game 5",
-            "seriesText": "DET leads 2-1",
+            "seriesText": "Series tied 2-2",
             "arenaName": "Little Caesars Arena",
             "arenaState": "MI",
             "arenaCity": "Detroit",
@@ -212383,7 +212394,7 @@
               "teamTricode": "DET",
               "teamSlug": "pistons",
               "wins": 2,
-              "losses": 1,
+              "losses": 2,
               "score": 0,
               "seed": 1
             },
@@ -212393,7 +212404,7 @@
               "teamCity": "Cleveland",
               "teamTricode": "CLE",
               "teamSlug": "cavaliers",
-              "wins": 1,
+              "wins": 2,
               "losses": 2,
               "score": 0,
               "seed": 4
@@ -212548,11 +212559,11 @@
             "monthNum": 5,
             "weekNumber": 30,
             "weekName": "Week 30",
-            "ifNecessary": true,
+            "ifNecessary": false,
             "seriesGameNumber": "Game 6",
             "gameLabel": "East Conf. Semifinals",
             "gameSubLabel": "Game 6",
-            "seriesText": "DET leads 2-1",
+            "seriesText": "Series tied 2-2",
             "arenaName": "Rocket Arena",
             "arenaState": "OH",
             "arenaCity": "Cleveland",
@@ -212637,7 +212648,7 @@
               "teamCity": "Cleveland",
               "teamTricode": "CLE",
               "teamSlug": "cavaliers",
-              "wins": 1,
+              "wins": 2,
               "losses": 2,
               "score": 0,
               "seed": 4
@@ -212649,7 +212660,7 @@
               "teamTricode": "DET",
               "teamSlug": "pistons",
               "wins": 2,
-              "losses": 1,
+              "losses": 2,
               "score": 0,
               "seed": 1
             },
@@ -212936,7 +212947,7 @@
             "seriesGameNumber": "Game 7",
             "gameLabel": "East Conf. Semifinals",
             "gameSubLabel": "Game 7",
-            "seriesText": "DET leads 2-1",
+            "seriesText": "Series tied 2-2",
             "arenaName": "Little Caesars Arena",
             "arenaState": "MI",
             "arenaCity": "Detroit",
@@ -213008,7 +213019,7 @@
               "teamTricode": "DET",
               "teamSlug": "pistons",
               "wins": 2,
-              "losses": 1,
+              "losses": 2,
               "score": 0,
               "seed": 1
             },
@@ -213018,7 +213029,7 @@
               "teamCity": "Cleveland",
               "teamTricode": "CLE",
               "teamSlug": "cavaliers",
-              "wins": 1,
+              "wins": 2,
               "losses": 2,
               "score": 0,
               "seed": 4

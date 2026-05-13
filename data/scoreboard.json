@@ -2,123 +2,123 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-13 04:21:35.2135",
+    "time": "2026-05-13 12:41:15.4115",
     "code": 200
   },
   "scoreboard": {
-    "gameDate": "2026-05-12",
+    "gameDate": "2026-05-13",
     "leagueId": "00",
     "leagueName": "National Basketball Association",
     "games": [
       {
-        "gameId": "0042500235",
-        "gameCode": "20260512/MINSAS",
-        "gameStatus": 3,
-        "gameStatusText": "Final",
-        "period": 4,
+        "gameId": "0042500205",
+        "gameCode": "20260513/CLEDET",
+        "gameStatus": 1,
+        "gameStatusText": "8:00 pm ET",
+        "period": 0,
         "gameClock": "",
-        "gameTimeUTC": "2026-05-13T00:00:00Z",
-        "gameEt": "2026-05-12T20:00:00Z",
+        "gameTimeUTC": "2026-05-14T00:00:00Z",
+        "gameEt": "2026-05-13T20:00:00Z",
         "regulationPeriods": 4,
         "ifNecessary": false,
         "seriesGameNumber": "Game 5",
-        "gameLabel": "West Conf. Semifinals",
+        "gameLabel": "East Conf. Semifinals",
         "gameSubLabel": "Game 5",
-        "seriesText": "SAS leads 3-2",
-        "seriesConference": "West",
+        "seriesText": "Series tied 2-2",
+        "seriesConference": "East",
         "poRoundDesc": "Conf. Semifinals",
         "gameSubtype": "",
         "isNeutral": false,
         "homeTeam": {
-          "teamId": 1610612759,
-          "teamName": "Spurs",
-          "teamCity": "San Antonio",
-          "teamTricode": "SAS",
-          "wins": 3,
-          "losses": 2,
-          "score": 126,
-          "seed": 2,
-          "inBonus": null,
-          "timeoutsRemaining": 1,
-          "periods": [
-            {
-              "period": 1,
-              "periodType": "REGULAR",
-              "score": 34
-            },
-            {
-              "period": 2,
-              "periodType": "REGULAR",
-              "score": 25
-            },
-            {
-              "period": 3,
-              "periodType": "REGULAR",
-              "score": 32
-            },
-            {
-              "period": 4,
-              "periodType": "REGULAR",
-              "score": 35
-            }
-          ]
-        },
-        "awayTeam": {
-          "teamId": 1610612750,
-          "teamName": "Timberwolves",
-          "teamCity": "Minnesota",
-          "teamTricode": "MIN",
+          "teamId": 1610612765,
+          "teamName": "Pistons",
+          "teamCity": "Detroit",
+          "teamTricode": "DET",
           "wins": 2,
-          "losses": 3,
-          "score": 97,
-          "seed": 6,
+          "losses": 2,
+          "score": 0,
+          "seed": 1,
           "inBonus": null,
           "timeoutsRemaining": 0,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 30
+              "score": 0
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 17
+              "score": 0
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 26
+              "score": 0
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 24
+              "score": 0
+            }
+          ]
+        },
+        "awayTeam": {
+          "teamId": 1610612739,
+          "teamName": "Cavaliers",
+          "teamCity": "Cleveland",
+          "teamTricode": "CLE",
+          "wins": 2,
+          "losses": 2,
+          "score": 0,
+          "seed": 4,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 0
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 0
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 0
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 0
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 1641705,
-            "name": "Victor Wembanyama",
-            "jerseyNum": "1",
-            "position": "F-C",
-            "teamTricode": "SAS",
+            "personId": 0,
+            "name": "",
+            "jerseyNum": "",
+            "position": "",
+            "teamTricode": "DET",
             "playerSlug": null,
-            "points": 27,
-            "rebounds": 17,
-            "assists": 5
+            "points": 0,
+            "rebounds": 0,
+            "assists": 0
           },
           "awayLeaders": {
-            "personId": 1630245,
-            "name": "Ayo Dosunmu",
-            "jerseyNum": "13",
-            "position": "G",
-            "teamTricode": "MIN",
+            "personId": 0,
+            "name": "",
+            "jerseyNum": "",
+            "position": "",
+            "teamTricode": "CLE",
             "playerSlug": null,
-            "points": 16,
-            "rebounds": 9,
-            "assists": 4
+            "points": 0,
+            "rebounds": 0,
+            "assists": 0
           }
         },
         "pbOdds": {

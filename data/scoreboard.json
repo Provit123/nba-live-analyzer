@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-12 05:51:52.5152",
+    "time": "2026-05-13 04:21:35.2135",
     "code": 200
   },
   "scoreboard": {
@@ -13,9 +13,9 @@
       {
         "gameId": "0042500235",
         "gameCode": "20260512/MINSAS",
-        "gameStatus": 1,
-        "gameStatusText": "8:00 pm ET",
-        "period": 0,
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
         "gameClock": "",
         "gameTimeUTC": "2026-05-13T00:00:00Z",
         "gameEt": "2026-05-12T20:00:00Z",
@@ -24,7 +24,7 @@
         "seriesGameNumber": "Game 5",
         "gameLabel": "West Conf. Semifinals",
         "gameSubLabel": "Game 5",
-        "seriesText": "Series tied 2-2",
+        "seriesText": "SAS leads 3-2",
         "seriesConference": "West",
         "poRoundDesc": "Conf. Semifinals",
         "gameSubtype": "",
@@ -34,32 +34,32 @@
           "teamName": "Spurs",
           "teamCity": "San Antonio",
           "teamTricode": "SAS",
-          "wins": 2,
+          "wins": 3,
           "losses": 2,
-          "score": 0,
+          "score": 126,
           "seed": 2,
           "inBonus": null,
-          "timeoutsRemaining": 0,
+          "timeoutsRemaining": 1,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 34
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 25
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 32
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 35
             }
           ]
         },
@@ -69,8 +69,8 @@
           "teamCity": "Minnesota",
           "teamTricode": "MIN",
           "wins": 2,
-          "losses": 2,
-          "score": 0,
+          "losses": 3,
+          "score": 97,
           "seed": 6,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -78,47 +78,47 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 30
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 17
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 26
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 24
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1641705,
+            "name": "Victor Wembanyama",
+            "jerseyNum": "1",
+            "position": "F-C",
             "teamTricode": "SAS",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 27,
+            "rebounds": 17,
+            "assists": 5
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1630245,
+            "name": "Ayo Dosunmu",
+            "jerseyNum": "13",
+            "position": "G",
             "teamTricode": "MIN",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 16,
+            "rebounds": 9,
+            "assists": 4
           }
         },
         "pbOdds": {

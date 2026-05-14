@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-13 05:56:23.5623",
+    "time": "2026-05-14 04:09:39.939",
     "code": 200
   },
   "scoreboard": {
@@ -13,9 +13,9 @@
       {
         "gameId": "0042500205",
         "gameCode": "20260513/CLEDET",
-        "gameStatus": 1,
-        "gameStatusText": "8:00 pm ET",
-        "period": 0,
+        "gameStatus": 3,
+        "gameStatusText": "Final/OT",
+        "period": 5,
         "gameClock": "",
         "gameTimeUTC": "2026-05-14T00:00:00Z",
         "gameEt": "2026-05-13T20:00:00Z",
@@ -24,7 +24,7 @@
         "seriesGameNumber": "Game 5",
         "gameLabel": "East Conf. Semifinals",
         "gameSubLabel": "Game 5",
-        "seriesText": "Series tied 2-2",
+        "seriesText": "CLE leads 3-2",
         "seriesConference": "East",
         "poRoundDesc": "Conf. Semifinals",
         "gameSubtype": "",
@@ -35,8 +35,8 @@
           "teamCity": "Detroit",
           "teamTricode": "DET",
           "wins": 2,
-          "losses": 2,
-          "score": 0,
+          "losses": 3,
+          "score": 113,
           "seed": 1,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -44,22 +44,27 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 29
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 31
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 20
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 23
+            },
+            {
+              "period": 5,
+              "periodType": "OVERTIME",
+              "score": 10
             }
           ]
         },
@@ -68,9 +73,9 @@
           "teamName": "Cavaliers",
           "teamCity": "Cleveland",
           "teamTricode": "CLE",
-          "wins": 2,
+          "wins": 3,
           "losses": 2,
-          "score": 0,
+          "score": 117,
           "seed": 4,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -78,47 +83,52 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 27
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 25
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 32
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 19
+            },
+            {
+              "period": 5,
+              "periodType": "OVERTIME",
+              "score": 14
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1630595,
+            "name": "Cade Cunningham",
+            "jerseyNum": "2",
+            "position": "G",
             "teamTricode": "DET",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 39,
+            "rebounds": 7,
+            "assists": 9
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 201935,
+            "name": "James Harden",
+            "jerseyNum": "1",
+            "position": "G",
             "teamTricode": "CLE",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 30,
+            "rebounds": 8,
+            "assists": 6
           }
         },
         "pbOdds": {

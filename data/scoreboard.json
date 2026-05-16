@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-15 04:43:06.436",
+    "time": "2026-05-15 07:59:56.5956",
     "code": 200
   },
   "scoreboard": {
@@ -13,12 +13,12 @@
       {
         "gameId": "0042500206",
         "gameCode": "20260515/DETCLE",
-        "gameStatus": 1,
-        "gameStatusText": "7:00 pm ET",
-        "period": 0,
-        "gameClock": "",
+        "gameStatus": 2,
+        "gameStatusText": "Q2 8:04",
+        "period": 2,
+        "gameClock": "PT08M04.00S",
         "gameTimeUTC": "2026-05-15T23:00:00Z",
-        "gameEt": "2026-05-15T19:00:00Z",
+        "gameEt": "2026-05-15T19:00:00-04:00",
         "regulationPeriods": 4,
         "ifNecessary": false,
         "seriesGameNumber": "Game 6",
@@ -36,20 +36,20 @@
           "teamTricode": "CLE",
           "wins": 3,
           "losses": 2,
-          "score": 0,
+          "score": 29,
           "seed": 4,
-          "inBonus": null,
-          "timeoutsRemaining": 0,
+          "inBonus": "0",
+          "timeoutsRemaining": 5,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 25
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 4
             },
             {
               "period": 3,
@@ -70,20 +70,20 @@
           "teamTricode": "DET",
           "wins": 2,
           "losses": 3,
-          "score": 0,
+          "score": 41,
           "seed": 1,
-          "inBonus": null,
-          "timeoutsRemaining": 0,
+          "inBonus": "0",
+          "timeoutsRemaining": 6,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 27
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 14
             },
             {
               "period": 3,
@@ -99,26 +99,26 @@
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1630596,
+            "name": "Evan Mobley",
+            "jerseyNum": "4",
+            "position": "C",
             "teamTricode": "CLE",
-            "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "playerSlug": "evan-mobley",
+            "points": 7,
+            "rebounds": 3,
+            "assists": 1
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1641709,
+            "name": "Ausar Thompson",
+            "jerseyNum": "9",
+            "position": "GF",
             "teamTricode": "DET",
-            "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "playerSlug": "ausar-thompson",
+            "points": 8,
+            "rebounds": 3,
+            "assists": 2
           }
         },
         "pbOdds": {

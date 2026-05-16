@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-15 07:59:56.5956",
+    "time": "2026-05-16 03:33:34.3334",
     "code": 200
   },
   "scoreboard": {
@@ -13,18 +13,18 @@
       {
         "gameId": "0042500206",
         "gameCode": "20260515/DETCLE",
-        "gameStatus": 2,
-        "gameStatusText": "Q2 8:04",
-        "period": 2,
-        "gameClock": "PT08M04.00S",
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
+        "gameClock": "",
         "gameTimeUTC": "2026-05-15T23:00:00Z",
-        "gameEt": "2026-05-15T19:00:00-04:00",
+        "gameEt": "2026-05-15T19:00:00Z",
         "regulationPeriods": 4,
         "ifNecessary": false,
         "seriesGameNumber": "Game 6",
         "gameLabel": "East Conf. Semifinals",
         "gameSubLabel": "Game 6",
-        "seriesText": "CLE leads 3-2",
+        "seriesText": "Series tied 3-3",
         "seriesConference": "East",
         "poRoundDesc": "Conf. Semifinals",
         "gameSubtype": "",
@@ -35,11 +35,11 @@
           "teamCity": "Cleveland",
           "teamTricode": "CLE",
           "wins": 3,
-          "losses": 2,
-          "score": 29,
+          "losses": 3,
+          "score": 94,
           "seed": 4,
-          "inBonus": "0",
-          "timeoutsRemaining": 5,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
           "periods": [
             {
               "period": 1,
@@ -49,17 +49,17 @@
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 4
+              "score": 26
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 19
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 24
             }
           ]
         },
@@ -68,12 +68,12 @@
           "teamName": "Pistons",
           "teamCity": "Detroit",
           "teamTricode": "DET",
-          "wins": 2,
+          "wins": 3,
           "losses": 3,
-          "score": 41,
+          "score": 115,
           "seed": 1,
-          "inBonus": "0",
-          "timeoutsRemaining": 6,
+          "inBonus": null,
+          "timeoutsRemaining": 1,
           "periods": [
             {
               "period": 1,
@@ -83,42 +83,42 @@
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 14
+              "score": 27
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 30
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 31
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 1630596,
-            "name": "Evan Mobley",
-            "jerseyNum": "4",
-            "position": "C",
+            "personId": 201935,
+            "name": "James Harden",
+            "jerseyNum": "1",
+            "position": "G",
             "teamTricode": "CLE",
-            "playerSlug": "evan-mobley",
-            "points": 7,
-            "rebounds": 3,
-            "assists": 1
+            "playerSlug": null,
+            "points": 23,
+            "rebounds": 7,
+            "assists": 4
           },
           "awayLeaders": {
-            "personId": 1641709,
-            "name": "Ausar Thompson",
-            "jerseyNum": "9",
-            "position": "GF",
+            "personId": 1630595,
+            "name": "Cade Cunningham",
+            "jerseyNum": "2",
+            "position": "G",
             "teamTricode": "DET",
-            "playerSlug": "ausar-thompson",
-            "points": 8,
-            "rebounds": 3,
-            "assists": 2
+            "playerSlug": null,
+            "points": 21,
+            "rebounds": 2,
+            "assists": 8
           }
         },
         "pbOdds": {
@@ -130,9 +130,9 @@
       {
         "gameId": "0042500236",
         "gameCode": "20260515/SASMIN",
-        "gameStatus": 1,
-        "gameStatusText": "9:30 pm ET",
-        "period": 0,
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
         "gameClock": "",
         "gameTimeUTC": "2026-05-16T01:30:00Z",
         "gameEt": "2026-05-15T21:30:00Z",
@@ -141,7 +141,7 @@
         "seriesGameNumber": "Game 6",
         "gameLabel": "West Conf. Semifinals",
         "gameSubLabel": "Game 6",
-        "seriesText": "SAS leads 3-2",
+        "seriesText": "SAS wins 4-2",
         "seriesConference": "West",
         "poRoundDesc": "Conf. Semifinals",
         "gameSubtype": "",
@@ -152,8 +152,8 @@
           "teamCity": "Minnesota",
           "teamTricode": "MIN",
           "wins": 2,
-          "losses": 3,
-          "score": 0,
+          "losses": 4,
+          "score": 109,
           "seed": 6,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -161,22 +161,22 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 27
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 34
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 23
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 25
             }
           ]
         },
@@ -185,57 +185,57 @@
           "teamName": "Spurs",
           "teamCity": "San Antonio",
           "teamTricode": "SAS",
-          "wins": 3,
+          "wins": 4,
           "losses": 2,
-          "score": 0,
+          "score": 139,
           "seed": 2,
           "inBonus": null,
-          "timeoutsRemaining": 0,
+          "timeoutsRemaining": 1,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 36
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 38
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 36
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 29
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1630162,
+            "name": "Anthony Edwards",
+            "jerseyNum": "5",
+            "position": "G",
             "teamTricode": "MIN",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 24,
+            "rebounds": 2,
+            "assists": 2
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1642264,
+            "name": "Stephon Castle",
+            "jerseyNum": "5",
+            "position": "G",
             "teamTricode": "SAS",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 32,
+            "rebounds": 11,
+            "assists": 6
           }
         },
         "pbOdds": {

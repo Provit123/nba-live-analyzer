@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "http://nba.cloud/league/00/2025-26/scheduleleaguev2?Format=json",
-    "time": "2026-05-17T18:29:08.298Z"
+    "time": "2026-05-18T07:50:54.5054Z"
   },
   "leagueSchedule": {
     "seasonYear": "2025-26",
@@ -8143,16 +8143,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642273,
-                "firstName": "Kyshawn",
-                "lastName": "George",
-                "teamId": 1610612764,
-                "teamCity": "Washington",
-                "teamName": "Wizards",
-                "teamTricode": "WAS",
-                "points": 20.0
-              },
-              {
                 "personId": 1631105,
                 "firstName": "Jalen",
                 "lastName": "Duren",
@@ -8160,6 +8150,16 @@
                 "teamCity": "Detroit",
                 "teamName": "Pistons",
                 "teamTricode": "DET",
+                "points": 20.0
+              },
+              {
+                "personId": 1642273,
+                "firstName": "Kyshawn",
+                "lastName": "George",
+                "teamId": 1610612764,
+                "teamCity": "Washington",
+                "teamName": "Wizards",
+                "teamTricode": "WAS",
                 "points": 20.0
               }
             ]
@@ -19166,16 +19166,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642847,
-                "firstName": "Jeremiah",
-                "lastName": "Fears",
-                "teamId": 1610612740,
-                "teamCity": "New Orleans",
-                "teamName": "Pelicans",
-                "teamTricode": "NOP",
-                "points": 21.0
-              },
-              {
                 "personId": 203999,
                 "firstName": "Nikola",
                 "lastName": "Jokic",
@@ -19183,6 +19173,16 @@
                 "teamCity": "Denver",
                 "teamName": "Nuggets",
                 "teamTricode": "DEN",
+                "points": 21.0
+              },
+              {
+                "personId": 1642847,
+                "firstName": "Jeremiah",
+                "lastName": "Fears",
+                "teamId": 1610612740,
+                "teamCity": "New Orleans",
+                "teamName": "Pelicans",
+                "teamTricode": "NOP",
                 "points": 21.0
               }
             ]
@@ -22952,16 +22952,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628970,
-                "firstName": "Miles",
-                "lastName": "Bridges",
-                "teamId": 1610612766,
-                "teamCity": "Charlotte",
-                "teamName": "Hornets",
-                "teamTricode": "CHA",
-                "points": 29.0
-              },
-              {
                 "personId": 1628374,
                 "firstName": "Lauri",
                 "lastName": "Markkanen",
@@ -22969,6 +22959,16 @@
                 "teamCity": "Utah",
                 "teamName": "Jazz",
                 "teamTricode": "UTA",
+                "points": 29.0
+              },
+              {
+                "personId": 1628970,
+                "firstName": "Miles",
+                "lastName": "Bridges",
+                "teamId": 1610612766,
+                "teamCity": "Charlotte",
+                "teamName": "Hornets",
+                "teamTricode": "CHA",
                 "points": 29.0
               }
             ]
@@ -30894,16 +30894,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1626164,
-                "firstName": "Devin",
-                "lastName": "Booker",
-                "teamId": 1610612756,
-                "teamCity": "Phoenix",
-                "teamName": "Suns",
-                "teamTricode": "PHX",
-                "points": 21.0
-              },
-              {
                 "personId": 1627826,
                 "firstName": "Ivica",
                 "lastName": "Zubac",
@@ -30911,6 +30901,16 @@
                 "teamCity": "LA",
                 "teamName": "Clippers",
                 "teamTricode": "LAC",
+                "points": 21.0
+              },
+              {
+                "personId": 1626164,
+                "firstName": "Devin",
+                "lastName": "Booker",
+                "teamId": 1610612756,
+                "teamCity": "Phoenix",
+                "teamName": "Suns",
+                "teamTricode": "PHX",
                 "points": 21.0
               }
             ]
@@ -41765,16 +41765,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630595,
-                "firstName": "Cade",
-                "lastName": "Cunningham",
-                "teamId": 1610612765,
-                "teamCity": "Detroit",
-                "teamName": "Pistons",
-                "teamTricode": "DET",
-                "points": 25.0
-              },
-              {
                 "personId": 1630552,
                 "firstName": "Jalen",
                 "lastName": "Johnson",
@@ -41782,6 +41772,16 @@
                 "teamCity": "Atlanta",
                 "teamName": "Hawks",
                 "teamTricode": "ATL",
+                "points": 25.0
+              },
+              {
+                "personId": 1630595,
+                "firstName": "Cade",
+                "lastName": "Cunningham",
+                "teamId": 1610612765,
+                "teamCity": "Detroit",
+                "teamName": "Pistons",
+                "teamTricode": "DET",
                 "points": 25.0
               }
             ]
@@ -47049,16 +47049,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642851,
-                "firstName": "Kon",
-                "lastName": "Knueppel",
-                "teamId": 1610612766,
-                "teamCity": "Charlotte",
-                "teamName": "Hornets",
-                "teamTricode": "CHA",
-                "points": 28.0
-              },
-              {
                 "personId": 1630552,
                 "firstName": "Jalen",
                 "lastName": "Johnson",
@@ -47066,6 +47056,16 @@
                 "teamCity": "Atlanta",
                 "teamName": "Hawks",
                 "teamTricode": "ATL",
+                "points": 28.0
+              },
+              {
+                "personId": 1642851,
+                "firstName": "Kon",
+                "lastName": "Knueppel",
+                "teamId": 1610612766,
+                "teamCity": "Charlotte",
+                "teamName": "Hornets",
+                "teamTricode": "CHA",
                 "points": 28.0
               }
             ]
@@ -48135,16 +48135,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630595,
-                "firstName": "Cade",
-                "lastName": "Cunningham",
-                "teamId": 1610612765,
-                "teamCity": "Detroit",
-                "teamName": "Pistons",
-                "teamTricode": "DET",
-                "points": 24.0
-              },
-              {
                 "personId": 1627783,
                 "firstName": "Pascal",
                 "lastName": "Siakam",
@@ -48152,6 +48142,16 @@
                 "teamCity": "Indiana",
                 "teamName": "Pacers",
                 "teamTricode": "IND",
+                "points": 24.0
+              },
+              {
+                "personId": 1630595,
+                "firstName": "Cade",
+                "lastName": "Cunningham",
+                "teamId": 1610612765,
+                "teamCity": "Detroit",
+                "teamName": "Pistons",
+                "teamTricode": "DET",
                 "points": 24.0
               }
             ]
@@ -52144,16 +52144,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642259,
-                "firstName": "Alex",
-                "lastName": "Sarr",
-                "teamId": 1610612764,
-                "teamCity": "Washington",
-                "teamName": "Wizards",
-                "teamTricode": "WAS",
-                "points": 24.0
-              },
-              {
                 "personId": 1627783,
                 "firstName": "Pascal",
                 "lastName": "Siakam",
@@ -52161,6 +52151,16 @@
                 "teamCity": "Indiana",
                 "teamName": "Pacers",
                 "teamTricode": "IND",
+                "points": 24.0
+              },
+              {
+                "personId": 1642259,
+                "firstName": "Alex",
+                "lastName": "Sarr",
+                "teamId": 1610612764,
+                "teamCity": "Washington",
+                "teamName": "Wizards",
+                "teamTricode": "WAS",
                 "points": 24.0
               }
             ]
@@ -59238,16 +59238,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642843,
-                "firstName": "Cooper",
-                "lastName": "Flagg",
-                "teamId": 1610612742,
-                "teamCity": "Dallas",
-                "teamName": "Mavericks",
-                "teamTricode": "DAL",
-                "points": 22.0
-              },
-              {
                 "personId": 1642276,
                 "firstName": "Kel'el",
                 "lastName": "Ware",
@@ -59255,6 +59245,16 @@
                 "teamCity": "Miami",
                 "teamName": "Heat",
                 "teamTricode": "MIA",
+                "points": 22.0
+              },
+              {
+                "personId": 1642843,
+                "firstName": "Cooper",
+                "lastName": "Flagg",
+                "teamId": 1610612742,
+                "teamCity": "Dallas",
+                "teamName": "Mavericks",
+                "teamTricode": "DAL",
                 "points": 22.0
               }
             ]
@@ -68247,6 +68247,16 @@
             },
             "pointsLeaders": [
               {
+                "personId": 1629632,
+                "firstName": "Coby",
+                "lastName": "White",
+                "teamId": 1610612741,
+                "teamCity": "Chicago",
+                "teamName": "Bulls",
+                "teamTricode": "CHI",
+                "points": 20.0
+              },
+              {
                 "personId": 1630530,
                 "firstName": "Trey",
                 "lastName": "Murphy III",
@@ -68264,16 +68274,6 @@
                 "teamCity": "New Orleans",
                 "teamName": "Pelicans",
                 "teamTricode": "NOP",
-                "points": 20.0
-              },
-              {
-                "personId": 1629632,
-                "firstName": "Coby",
-                "lastName": "White",
-                "teamId": 1610612741,
-                "teamCity": "Chicago",
-                "teamName": "Bulls",
-                "teamTricode": "CHI",
                 "points": 20.0
               }
             ]
@@ -76343,16 +76343,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1629632,
-                "firstName": "Coby",
-                "lastName": "White",
-                "teamId": 1610612741,
-                "teamCity": "Chicago",
-                "teamName": "Bulls",
-                "teamTricode": "CHI",
-                "points": 24.0
-              },
-              {
                 "personId": 1630552,
                 "firstName": "Jalen",
                 "lastName": "Johnson",
@@ -76360,6 +76350,16 @@
                 "teamCity": "Atlanta",
                 "teamName": "Hawks",
                 "teamTricode": "ATL",
+                "points": 24.0
+              },
+              {
+                "personId": 1629632,
+                "firstName": "Coby",
+                "lastName": "White",
+                "teamId": 1610612741,
+                "teamCity": "Chicago",
+                "teamName": "Bulls",
+                "teamTricode": "CHI",
                 "points": 24.0
               }
             ]
@@ -99369,6 +99369,16 @@
             },
             "pointsLeaders": [
               {
+                "personId": 1626220,
+                "firstName": "Royce",
+                "lastName": "O'Neale",
+                "teamId": 1610612756,
+                "teamCity": "Phoenix",
+                "teamName": "Suns",
+                "teamTricode": "PHX",
+                "points": 19.0
+              },
+              {
                 "personId": 1642259,
                 "firstName": "Alex",
                 "lastName": "Sarr",
@@ -99386,16 +99396,6 @@
                 "teamCity": "Washington",
                 "teamName": "Wizards",
                 "teamTricode": "WAS",
-                "points": 19.0
-              },
-              {
-                "personId": 1626220,
-                "firstName": "Royce",
-                "lastName": "O'Neale",
-                "teamId": 1610612756,
-                "teamCity": "Phoenix",
-                "teamName": "Suns",
-                "teamTricode": "PHX",
                 "points": 19.0
               }
             ]
@@ -104997,16 +104997,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 203944,
-                "firstName": "Julius",
-                "lastName": "Randle",
-                "teamId": 1610612750,
-                "teamCity": "Minnesota",
-                "teamName": "Timberwolves",
-                "teamTricode": "MIN",
-                "points": 39.0
-              },
-              {
                 "personId": 201142,
                 "firstName": "Kevin",
                 "lastName": "Durant",
@@ -105014,6 +105004,16 @@
                 "teamCity": "Houston",
                 "teamName": "Rockets",
                 "teamTricode": "HOU",
+                "points": 39.0
+              },
+              {
+                "personId": 203944,
+                "firstName": "Julius",
+                "lastName": "Randle",
+                "teamId": 1610612750,
+                "teamCity": "Minnesota",
+                "teamName": "Timberwolves",
+                "teamTricode": "MIN",
                 "points": 39.0
               }
             ]
@@ -106622,16 +106622,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1631101,
-                "firstName": "Shaedon",
-                "lastName": "Sharpe",
-                "teamId": 1610612757,
-                "teamCity": "Portland",
-                "teamName": "Trail Blazers",
-                "teamTricode": "POR",
-                "points": 25.0
-              },
-              {
                 "personId": 203935,
                 "firstName": "Marcus",
                 "lastName": "Smart",
@@ -106639,6 +106629,16 @@
                 "teamCity": "Los Angeles",
                 "teamName": "Lakers",
                 "teamTricode": "LAL",
+                "points": 25.0
+              },
+              {
+                "personId": 1631101,
+                "firstName": "Shaedon",
+                "lastName": "Sharpe",
+                "teamId": 1610612757,
+                "teamCity": "Portland",
+                "teamName": "Trail Blazers",
+                "teamTricode": "POR",
                 "points": 25.0
               }
             ]
@@ -118536,16 +118536,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1641706,
-                "firstName": "Brandon",
-                "lastName": "Miller",
-                "teamId": 1610612766,
-                "teamCity": "Charlotte",
-                "teamName": "Hornets",
-                "teamTricode": "CHA",
-                "points": 26.0
-              },
-              {
                 "personId": 1628991,
                 "firstName": "Jaren",
                 "lastName": "Jackson Jr.",
@@ -118553,6 +118543,16 @@
                 "teamCity": "Memphis",
                 "teamName": "Grizzlies",
                 "teamTricode": "MEM",
+                "points": 26.0
+              },
+              {
+                "personId": 1641706,
+                "firstName": "Brandon",
+                "lastName": "Miller",
+                "teamId": 1610612766,
+                "teamCity": "Charlotte",
+                "teamName": "Hornets",
+                "teamTricode": "CHA",
                 "points": 26.0
               }
             ]
@@ -120851,16 +120851,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1631101,
-                "firstName": "Shaedon",
-                "lastName": "Sharpe",
-                "teamId": 1610612757,
-                "teamCity": "Portland",
-                "teamName": "Trail Blazers",
-                "teamTricode": "POR",
-                "points": 26.0
-              },
-              {
                 "personId": 1628973,
                 "firstName": "Jalen",
                 "lastName": "Brunson",
@@ -120868,6 +120858,16 @@
                 "teamCity": "New York",
                 "teamName": "Knicks",
                 "teamTricode": "NYK",
+                "points": 26.0
+              },
+              {
+                "personId": 1631101,
+                "firstName": "Shaedon",
+                "lastName": "Sharpe",
+                "teamId": 1610612757,
+                "teamCity": "Portland",
+                "teamName": "Trail Blazers",
+                "teamTricode": "POR",
                 "points": 26.0
               }
             ]
@@ -122905,16 +122905,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1641705,
-                "firstName": "Victor",
-                "lastName": "Wembanyama",
-                "teamId": 1610612759,
-                "teamCity": "San Antonio",
-                "teamName": "Spurs",
-                "teamTricode": "SAS",
-                "points": 25.0
-              },
-              {
                 "personId": 1630217,
                 "firstName": "Desmond",
                 "lastName": "Bane",
@@ -122922,6 +122912,16 @@
                 "teamCity": "Orlando",
                 "teamName": "Magic",
                 "teamTricode": "ORL",
+                "points": 25.0
+              },
+              {
+                "personId": 1641705,
+                "firstName": "Victor",
+                "lastName": "Wembanyama",
+                "teamId": 1610612759,
+                "teamCity": "San Antonio",
+                "teamName": "Spurs",
+                "teamTricode": "SAS",
                 "points": 25.0
               }
             ]
@@ -127176,16 +127176,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1629640,
-                "firstName": "Keldon",
-                "lastName": "Johnson",
-                "teamId": 1610612759,
-                "teamCity": "San Antonio",
-                "teamName": "Spurs",
-                "teamTricode": "SAS",
-                "points": 25.0
-              },
-              {
                 "personId": 1629026,
                 "firstName": "Kenrich",
                 "lastName": "Williams",
@@ -127193,6 +127183,16 @@
                 "teamCity": "Oklahoma City",
                 "teamName": "Thunder",
                 "teamTricode": "OKC",
+                "points": 25.0
+              },
+              {
+                "personId": 1629640,
+                "firstName": "Keldon",
+                "lastName": "Johnson",
+                "teamId": 1610612759,
+                "teamCity": "San Antonio",
+                "teamName": "Spurs",
+                "teamTricode": "SAS",
                 "points": 25.0
               }
             ]
@@ -137210,6 +137210,16 @@
             },
             "pointsLeaders": [
               {
+                "personId": 1627759,
+                "firstName": "Jaylen",
+                "lastName": "Brown",
+                "teamId": 1610616860,
+                "teamCity": "",
+                "teamName": "Stripes",
+                "teamTricode": "STP",
+                "points": 11.0
+              },
+              {
                 "personId": 1630162,
                 "firstName": "Anthony",
                 "lastName": "Edwards",
@@ -137227,16 +137237,6 @@
                 "teamCity": "",
                 "teamName": "Stars",
                 "teamTricode": "STR",
-                "points": 11.0
-              },
-              {
-                "personId": 1627759,
-                "firstName": "Jaylen",
-                "lastName": "Brown",
-                "teamId": 1610616860,
-                "teamCity": "",
-                "teamName": "Stripes",
-                "teamTricode": "STP",
                 "points": 11.0
               }
             ]
@@ -149374,16 +149374,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1641705,
-                "firstName": "Victor",
-                "lastName": "Wembanyama",
-                "teamId": 1610612759,
-                "teamCity": "San Antonio",
-                "teamName": "Spurs",
-                "teamTricode": "SAS",
-                "points": 25.0
-              },
-              {
                 "personId": 1628969,
                 "firstName": "Mikal",
                 "lastName": "Bridges",
@@ -149391,6 +149381,16 @@
                 "teamCity": "New York",
                 "teamName": "Knicks",
                 "teamTricode": "NYK",
+                "points": 25.0
+              },
+              {
+                "personId": 1641705,
+                "firstName": "Victor",
+                "lastName": "Wembanyama",
+                "teamId": 1610612759,
+                "teamCity": "San Antonio",
+                "teamName": "Spurs",
+                "teamTricode": "SAS",
                 "points": 25.0
               }
             ]
@@ -171146,16 +171146,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630180,
-                "firstName": "Saddiq",
-                "lastName": "Bey",
-                "teamId": 1610612740,
-                "teamCity": "New Orleans",
-                "teamName": "Pelicans",
-                "teamTricode": "NOP",
-                "points": 25.0
-              },
-              {
                 "personId": 202695,
                 "firstName": "Kawhi",
                 "lastName": "Leonard",
@@ -171163,6 +171153,16 @@
                 "teamCity": "LA",
                 "teamName": "Clippers",
                 "teamTricode": "LAC",
+                "points": 25.0
+              },
+              {
+                "personId": 1630180,
+                "firstName": "Saddiq",
+                "lastName": "Bey",
+                "teamId": 1610612740,
+                "teamCity": "New Orleans",
+                "teamName": "Pelicans",
+                "teamTricode": "NOP",
                 "points": 25.0
               }
             ]
@@ -171319,16 +171319,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1629655,
-                "firstName": "Daniel",
-                "lastName": "Gafford",
-                "teamId": 1610612742,
-                "teamCity": "Dallas",
-                "teamName": "Mavericks",
-                "teamTricode": "DAL",
-                "points": 24.0
-              },
-              {
                 "personId": 203468,
                 "firstName": "CJ",
                 "lastName": "McCollum",
@@ -171336,6 +171326,16 @@
                 "teamCity": "Atlanta",
                 "teamName": "Hawks",
                 "teamTricode": "ATL",
+                "points": 24.0
+              },
+              {
+                "personId": 1629655,
+                "firstName": "Daniel",
+                "lastName": "Gafford",
+                "teamId": 1610612742,
+                "teamCity": "Dallas",
+                "teamName": "Mavericks",
+                "teamTricode": "DAL",
                 "points": 24.0
               }
             ]
@@ -180319,16 +180319,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642851,
-                "firstName": "Kon",
-                "lastName": "Knueppel",
-                "teamId": 1610612766,
-                "teamCity": "Charlotte",
-                "teamName": "Hornets",
-                "teamTricode": "CHA",
-                "points": 26.0
-              },
-              {
                 "personId": 1628973,
                 "firstName": "Jalen",
                 "lastName": "Brunson",
@@ -180336,6 +180326,16 @@
                 "teamCity": "New York",
                 "teamName": "Knicks",
                 "teamTricode": "NYK",
+                "points": 26.0
+              },
+              {
+                "personId": 1642851,
+                "firstName": "Kon",
+                "lastName": "Knueppel",
+                "teamId": 1610612766,
+                "teamCity": "Charlotte",
+                "teamName": "Hornets",
+                "teamTricode": "CHA",
                 "points": 26.0
               }
             ]
@@ -188479,16 +188479,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628970,
-                "firstName": "Miles",
-                "lastName": "Bridges",
-                "teamId": 1610612766,
-                "teamCity": "Charlotte",
-                "teamName": "Hornets",
-                "teamTricode": "CHA",
-                "points": 25.0
-              },
-              {
                 "personId": 1630224,
                 "firstName": "Jalen",
                 "lastName": "Green",
@@ -188496,6 +188486,16 @@
                 "teamCity": "Phoenix",
                 "teamName": "Suns",
                 "teamTricode": "PHX",
+                "points": 25.0
+              },
+              {
+                "personId": 1628970,
+                "firstName": "Miles",
+                "lastName": "Bridges",
+                "teamId": 1610612766,
+                "teamCity": "Charlotte",
+                "teamName": "Hornets",
+                "teamTricode": "CHA",
                 "points": 25.0
               }
             ]
@@ -208147,16 +208147,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630595,
-                "firstName": "Cade",
-                "lastName": "Cunningham",
-                "teamId": 1610612765,
-                "teamCity": "Detroit",
-                "teamName": "Pistons",
-                "teamTricode": "DET",
-                "points": 45.0
-              },
-              {
                 "personId": 1631094,
                 "firstName": "Paolo",
                 "lastName": "Banchero",
@@ -208164,6 +208154,16 @@
                 "teamCity": "Orlando",
                 "teamName": "Magic",
                 "teamTricode": "ORL",
+                "points": 45.0
+              },
+              {
+                "personId": 1630595,
+                "firstName": "Cade",
+                "lastName": "Cunningham",
+                "teamId": 1610612765,
+                "teamCity": "Detroit",
+                "teamName": "Pistons",
+                "teamTricode": "DET",
                 "points": 45.0
               }
             ]
@@ -210486,16 +210486,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630178,
-                "firstName": "Tyrese",
-                "lastName": "Maxey",
-                "teamId": 1610612755,
-                "teamCity": "Philadelphia",
-                "teamName": "76ers",
-                "teamTricode": "PHI",
-                "points": 26.0
-              },
-              {
                 "personId": 1628973,
                 "firstName": "Jalen",
                 "lastName": "Brunson",
@@ -210503,6 +210493,16 @@
                 "teamCity": "New York",
                 "teamName": "Knicks",
                 "teamTricode": "NYK",
+                "points": 26.0
+              },
+              {
+                "personId": 1630178,
+                "firstName": "Tyrese",
+                "lastName": "Maxey",
+                "teamId": 1610612755,
+                "teamCity": "Philadelphia",
+                "teamName": "76ers",
+                "teamTricode": "PHI",
                 "points": 26.0
               }
             ]
@@ -212742,8 +212742,8 @@
           {
             "gameId": "0042500207",
             "gameCode": "20260517/CLEDET",
-            "gameStatus": 1,
-            "gameStatusText": "8:00 pm ET",
+            "gameStatus": 3,
+            "gameStatusText": "Final",
             "gameSequence": 2,
             "gameDateEst": "2026-05-17T00:00:00Z",
             "gameTimeEst": "1900-01-01T20:00:00Z",
@@ -212761,7 +212761,7 @@
             "seriesGameNumber": "Game 7",
             "gameLabel": "East Conf. Semifinals",
             "gameSubLabel": "Game 7",
-            "seriesText": "Series tied 3-3",
+            "seriesText": "CLE wins 4-3",
             "arenaName": "Little Caesars Arena",
             "arenaState": "MI",
             "arenaCity": "Detroit",
@@ -212860,8 +212860,8 @@
               "teamTricode": "DET",
               "teamSlug": "pistons",
               "wins": 3,
-              "losses": 3,
-              "score": 0,
+              "losses": 4,
+              "score": 94,
               "seed": 1
             },
             "awayTeam": {
@@ -212870,12 +212870,23 @@
               "teamCity": "Cleveland",
               "teamTricode": "CLE",
               "teamSlug": "cavaliers",
-              "wins": 3,
+              "wins": 4,
               "losses": 3,
-              "score": 0,
+              "score": 125,
               "seed": 4
             },
-            "pointsLeaders": []
+            "pointsLeaders": [
+              {
+                "personId": 1628378,
+                "firstName": "Donovan",
+                "lastName": "Mitchell",
+                "teamId": 1610612739,
+                "teamCity": "Cleveland",
+                "teamName": "Cavaliers",
+                "teamTricode": "CLE",
+                "points": 26.0
+              }
+            ]
           }
         ]
       },
@@ -213041,7 +213052,7 @@
         "games": [
           {
             "gameId": "0042500301",
-            "gameCode": "",
+            "gameCode": "20260519/CLENYK",
             "gameStatus": 1,
             "gameStatusText": "8:00 pm ET",
             "gameSequence": 1,
@@ -213051,8 +213062,8 @@
             "gameDateUTC": "2026-05-19T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:00:00Z",
             "gameDateTimeUTC": "2026-05-20T00:00:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-05-19T20:00:00Z",
+            "homeTeamTime": "2026-05-19T20:00:00Z",
             "day": "Tue",
             "monthNum": 5,
             "weekNumber": 31,
@@ -213062,9 +213073,9 @@
             "gameLabel": "East Conf. Finals",
             "gameSubLabel": "Game 1",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Madison Square Garden",
+            "arenaState": "NY",
+            "arenaCity": "New York",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
@@ -213074,15 +213085,15 @@
                 {
                   "broadcasterScope": "natl",
                   "broadcasterMedia": "tv",
-                  "broadcasterId": 1001042,
-                  "broadcasterDisplay": "TBD",
-                  "broadcasterAbbreviation": "TBD",
+                  "broadcasterId": 2,
+                  "broadcasterDisplay": "ESPN",
+                  "broadcasterAbbreviation": "ESPN",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
-                  "broadcasterVideoLink": "",
+                  "broadcasterVideoLink": "https://espn.smart.link/b4uxwf8ow?ex_cid=NBA&gameId=401873341&referringapp=nba",
                   "regionId": 1,
                   "broadcasterTeamId": -1,
-                  "broadcasterRanking": null,
+                  "broadcasterRanking": 2,
                   "localizationRegion": ""
                 }
               ],
@@ -213116,36 +213127,64 @@
               ],
               "nationalOttBroadcasters": [],
               "homeTvBroadcasters": [],
-              "homeRadioBroadcasters": [],
+              "homeRadioBroadcasters": [
+                {
+                  "broadcasterScope": "home",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001199,
+                  "broadcasterDisplay": "880 ESPN New York",
+                  "broadcasterAbbreviation": "WHSQ",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612752,
+                  "broadcasterRanking": null
+                }
+              ],
               "homeOttBroadcasters": [],
               "awayTvBroadcasters": [],
-              "awayRadioBroadcasters": [],
+              "awayRadioBroadcasters": [
+                {
+                  "broadcasterScope": "away",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1181,
+                  "broadcasterDisplay": "100.7 WMMS",
+                  "broadcasterAbbreviation": "WMMS",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612739,
+                  "broadcasterRanking": null
+                }
+              ],
               "awayOttBroadcasters": [],
               "intlRadioBroadcasters": [],
               "intlTvBroadcasters": [],
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612752,
+              "teamName": "Knicks",
+              "teamCity": "New York",
+              "teamTricode": "NYK",
+              "teamSlug": "knicks",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 3
             },
             "awayTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612739,
+              "teamName": "Cavaliers",
+              "teamCity": "Cleveland",
+              "teamTricode": "CLE",
+              "teamSlug": "cavaliers",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 4
             },
             "pointsLeaders": []
           }
@@ -213313,7 +213352,7 @@
         "games": [
           {
             "gameId": "0042500302",
-            "gameCode": "",
+            "gameCode": "20260521/CLENYK",
             "gameStatus": 1,
             "gameStatusText": "8:00 pm ET",
             "gameSequence": 1,
@@ -213323,8 +213362,8 @@
             "gameDateUTC": "2026-05-21T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:00:00Z",
             "gameDateTimeUTC": "2026-05-22T00:00:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-05-21T20:00:00Z",
+            "homeTeamTime": "2026-05-21T20:00:00Z",
             "day": "Thu",
             "monthNum": 5,
             "weekNumber": 31,
@@ -213334,9 +213373,9 @@
             "gameLabel": "East Conf. Finals",
             "gameSubLabel": "Game 2",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Madison Square Garden",
+            "arenaState": "NY",
+            "arenaCity": "New York",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
@@ -213346,15 +213385,15 @@
                 {
                   "broadcasterScope": "natl",
                   "broadcasterMedia": "tv",
-                  "broadcasterId": 1001042,
-                  "broadcasterDisplay": "TBD",
-                  "broadcasterAbbreviation": "TBD",
+                  "broadcasterId": 2,
+                  "broadcasterDisplay": "ESPN",
+                  "broadcasterAbbreviation": "ESPN",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
-                  "broadcasterVideoLink": "",
+                  "broadcasterVideoLink": "https://espn.smart.link/b4uxwf8ow?ex_cid=NBA&gameId=401873342&referringapp=nba",
                   "regionId": 1,
                   "broadcasterTeamId": -1,
-                  "broadcasterRanking": null,
+                  "broadcasterRanking": 2,
                   "localizationRegion": ""
                 }
               ],
@@ -213388,36 +213427,64 @@
               ],
               "nationalOttBroadcasters": [],
               "homeTvBroadcasters": [],
-              "homeRadioBroadcasters": [],
+              "homeRadioBroadcasters": [
+                {
+                  "broadcasterScope": "home",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001199,
+                  "broadcasterDisplay": "880 ESPN New York",
+                  "broadcasterAbbreviation": "WHSQ",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612752,
+                  "broadcasterRanking": null
+                }
+              ],
               "homeOttBroadcasters": [],
               "awayTvBroadcasters": [],
-              "awayRadioBroadcasters": [],
+              "awayRadioBroadcasters": [
+                {
+                  "broadcasterScope": "away",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1181,
+                  "broadcasterDisplay": "100.7 WMMS",
+                  "broadcasterAbbreviation": "WMMS",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612739,
+                  "broadcasterRanking": null
+                }
+              ],
               "awayOttBroadcasters": [],
               "intlRadioBroadcasters": [],
               "intlTvBroadcasters": [],
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612752,
+              "teamName": "Knicks",
+              "teamCity": "New York",
+              "teamTricode": "NYK",
+              "teamSlug": "knicks",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 3
             },
             "awayTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612739,
+              "teamName": "Cavaliers",
+              "teamCity": "Cleveland",
+              "teamTricode": "CLE",
+              "teamSlug": "cavaliers",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 4
             },
             "pointsLeaders": []
           }
@@ -213585,18 +213652,18 @@
         "games": [
           {
             "gameId": "0042500303",
-            "gameCode": "",
+            "gameCode": "20260523/NYKCLE",
             "gameStatus": 1,
-            "gameStatusText": "TBD",
+            "gameStatusText": "8:00 pm ET",
             "gameSequence": 1,
             "gameDateEst": "2026-05-23T00:00:00Z",
-            "gameTimeEst": "0001-01-01T00:00:00Z",
-            "gameDateTimeEst": "2026-05-23T00:00:00Z",
+            "gameTimeEst": "1900-01-01T20:00:00Z",
+            "gameDateTimeEst": "2026-05-23T20:00:00Z",
             "gameDateUTC": "2026-05-23T04:00:00Z",
-            "gameTimeUTC": "1900-01-01T04:00:00Z",
-            "gameDateTimeUTC": "2026-05-23T04:00:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "gameTimeUTC": "1900-01-01T00:00:00Z",
+            "gameDateTimeUTC": "2026-05-24T00:00:00Z",
+            "awayTeamTime": "2026-05-23T20:00:00Z",
+            "homeTeamTime": "2026-05-23T20:00:00Z",
             "day": "Sat",
             "monthNum": 5,
             "weekNumber": 31,
@@ -213606,9 +213673,9 @@
             "gameLabel": "East Conf. Finals",
             "gameSubLabel": "Game 3",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Rocket Arena",
+            "arenaState": "OH",
+            "arenaCity": "Cleveland",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
@@ -213618,15 +213685,15 @@
                 {
                   "broadcasterScope": "natl",
                   "broadcasterMedia": "tv",
-                  "broadcasterId": 1001042,
-                  "broadcasterDisplay": "TBD",
-                  "broadcasterAbbreviation": "TBD",
+                  "broadcasterId": 1,
+                  "broadcasterDisplay": "ABC",
+                  "broadcasterAbbreviation": "ABC",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
                   "broadcasterTeamId": -1,
-                  "broadcasterRanking": null,
+                  "broadcasterRanking": 1,
                   "localizationRegion": ""
                 }
               ],
@@ -213660,36 +213727,64 @@
               ],
               "nationalOttBroadcasters": [],
               "homeTvBroadcasters": [],
-              "homeRadioBroadcasters": [],
+              "homeRadioBroadcasters": [
+                {
+                  "broadcasterScope": "home",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001675,
+                  "broadcasterDisplay": "100.7 WMMS / S: La Mega 1300",
+                  "broadcasterAbbreviation": "WMMS/WJMO",
+                  "broadcasterDescription": "100.7 WMMS / S: La Mega 1300",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612739,
+                  "broadcasterRanking": null
+                }
+              ],
               "homeOttBroadcasters": [],
               "awayTvBroadcasters": [],
-              "awayRadioBroadcasters": [],
+              "awayRadioBroadcasters": [
+                {
+                  "broadcasterScope": "away",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001199,
+                  "broadcasterDisplay": "880 ESPN New York",
+                  "broadcasterAbbreviation": "WHSQ",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612752,
+                  "broadcasterRanking": null
+                }
+              ],
               "awayOttBroadcasters": [],
               "intlRadioBroadcasters": [],
               "intlTvBroadcasters": [],
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612739,
+              "teamName": "Cavaliers",
+              "teamCity": "Cleveland",
+              "teamTricode": "CLE",
+              "teamSlug": "cavaliers",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 4
             },
             "awayTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612752,
+              "teamName": "Knicks",
+              "teamCity": "New York",
+              "teamTricode": "NYK",
+              "teamSlug": "knicks",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 3
             },
             "pointsLeaders": []
           }
@@ -213857,7 +213952,7 @@
         "games": [
           {
             "gameId": "0042500304",
-            "gameCode": "",
+            "gameCode": "20260525/NYKCLE",
             "gameStatus": 1,
             "gameStatusText": "8:00 pm ET",
             "gameSequence": 1,
@@ -213867,8 +213962,8 @@
             "gameDateUTC": "2026-05-25T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:00:00Z",
             "gameDateTimeUTC": "2026-05-26T00:00:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-05-25T20:00:00Z",
+            "homeTeamTime": "2026-05-25T20:00:00Z",
             "day": "Mon",
             "monthNum": 5,
             "weekNumber": 32,
@@ -213878,9 +213973,9 @@
             "gameLabel": "East Conf. Finals",
             "gameSubLabel": "Game 4",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Rocket Arena",
+            "arenaState": "OH",
+            "arenaCity": "Cleveland",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
@@ -213890,15 +213985,15 @@
                 {
                   "broadcasterScope": "natl",
                   "broadcasterMedia": "tv",
-                  "broadcasterId": 1001042,
-                  "broadcasterDisplay": "TBD",
-                  "broadcasterAbbreviation": "TBD",
+                  "broadcasterId": 2,
+                  "broadcasterDisplay": "ESPN",
+                  "broadcasterAbbreviation": "ESPN",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
-                  "broadcasterVideoLink": "",
+                  "broadcasterVideoLink": "https://espn.smart.link/b4uxwf8ow?ex_cid=NBA&gameId=401873344&referringapp=nba",
                   "regionId": 1,
                   "broadcasterTeamId": -1,
-                  "broadcasterRanking": null,
+                  "broadcasterRanking": 2,
                   "localizationRegion": ""
                 }
               ],
@@ -213932,36 +214027,64 @@
               ],
               "nationalOttBroadcasters": [],
               "homeTvBroadcasters": [],
-              "homeRadioBroadcasters": [],
+              "homeRadioBroadcasters": [
+                {
+                  "broadcasterScope": "home",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001675,
+                  "broadcasterDisplay": "100.7 WMMS / S: La Mega 1300",
+                  "broadcasterAbbreviation": "WMMS/WJMO",
+                  "broadcasterDescription": "100.7 WMMS / S: La Mega 1300",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612739,
+                  "broadcasterRanking": null
+                }
+              ],
               "homeOttBroadcasters": [],
               "awayTvBroadcasters": [],
-              "awayRadioBroadcasters": [],
+              "awayRadioBroadcasters": [
+                {
+                  "broadcasterScope": "away",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001199,
+                  "broadcasterDisplay": "880 ESPN New York",
+                  "broadcasterAbbreviation": "WHSQ",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612752,
+                  "broadcasterRanking": null
+                }
+              ],
               "awayOttBroadcasters": [],
               "intlRadioBroadcasters": [],
               "intlTvBroadcasters": [],
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612739,
+              "teamName": "Cavaliers",
+              "teamCity": "Cleveland",
+              "teamTricode": "CLE",
+              "teamSlug": "cavaliers",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 4
             },
             "awayTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612752,
+              "teamName": "Knicks",
+              "teamCity": "New York",
+              "teamTricode": "NYK",
+              "teamSlug": "knicks",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 3
             },
             "pointsLeaders": []
           }
@@ -214129,7 +214252,7 @@
         "games": [
           {
             "gameId": "0042500305",
-            "gameCode": "",
+            "gameCode": "20260527/CLENYK",
             "gameStatus": 1,
             "gameStatusText": "8:00 pm ET",
             "gameSequence": 1,
@@ -214139,8 +214262,8 @@
             "gameDateUTC": "2026-05-27T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:00:00Z",
             "gameDateTimeUTC": "2026-05-28T00:00:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-05-27T20:00:00Z",
+            "homeTeamTime": "2026-05-27T20:00:00Z",
             "day": "Wed",
             "monthNum": 5,
             "weekNumber": 32,
@@ -214150,9 +214273,9 @@
             "gameLabel": "East Conf. Finals",
             "gameSubLabel": "Game 5",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Madison Square Garden",
+            "arenaState": "NY",
+            "arenaCity": "New York",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
@@ -214162,15 +214285,15 @@
                 {
                   "broadcasterScope": "natl",
                   "broadcasterMedia": "tv",
-                  "broadcasterId": 1001042,
-                  "broadcasterDisplay": "TBD",
-                  "broadcasterAbbreviation": "TBD",
+                  "broadcasterId": 2,
+                  "broadcasterDisplay": "ESPN",
+                  "broadcasterAbbreviation": "ESPN",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
-                  "broadcasterVideoLink": "",
+                  "broadcasterVideoLink": "https://espn.smart.link/b4uxwf8ow?ex_cid=NBA&gameId=401873345&referringapp=nba",
                   "regionId": 1,
                   "broadcasterTeamId": -1,
-                  "broadcasterRanking": null,
+                  "broadcasterRanking": 2,
                   "localizationRegion": ""
                 }
               ],
@@ -214204,36 +214327,64 @@
               ],
               "nationalOttBroadcasters": [],
               "homeTvBroadcasters": [],
-              "homeRadioBroadcasters": [],
+              "homeRadioBroadcasters": [
+                {
+                  "broadcasterScope": "home",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001199,
+                  "broadcasterDisplay": "880 ESPN New York",
+                  "broadcasterAbbreviation": "WHSQ",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612752,
+                  "broadcasterRanking": null
+                }
+              ],
               "homeOttBroadcasters": [],
               "awayTvBroadcasters": [],
-              "awayRadioBroadcasters": [],
+              "awayRadioBroadcasters": [
+                {
+                  "broadcasterScope": "away",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1181,
+                  "broadcasterDisplay": "100.7 WMMS",
+                  "broadcasterAbbreviation": "WMMS",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612739,
+                  "broadcasterRanking": null
+                }
+              ],
               "awayOttBroadcasters": [],
               "intlRadioBroadcasters": [],
               "intlTvBroadcasters": [],
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612752,
+              "teamName": "Knicks",
+              "teamCity": "New York",
+              "teamTricode": "NYK",
+              "teamSlug": "knicks",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 3
             },
             "awayTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612739,
+              "teamName": "Cavaliers",
+              "teamCity": "Cleveland",
+              "teamTricode": "CLE",
+              "teamSlug": "cavaliers",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 4
             },
             "pointsLeaders": []
           }
@@ -214401,7 +214552,7 @@
         "games": [
           {
             "gameId": "0042500306",
-            "gameCode": "",
+            "gameCode": "20260529/NYKCLE",
             "gameStatus": 1,
             "gameStatusText": "8:00 pm ET",
             "gameSequence": 1,
@@ -214411,8 +214562,8 @@
             "gameDateUTC": "2026-05-29T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:00:00Z",
             "gameDateTimeUTC": "2026-05-30T00:00:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-05-29T20:00:00Z",
+            "homeTeamTime": "2026-05-29T20:00:00Z",
             "day": "Fri",
             "monthNum": 5,
             "weekNumber": 32,
@@ -214422,9 +214573,9 @@
             "gameLabel": "East Conf. Finals",
             "gameSubLabel": "Game 6",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Rocket Arena",
+            "arenaState": "OH",
+            "arenaCity": "Cleveland",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
@@ -214434,15 +214585,15 @@
                 {
                   "broadcasterScope": "natl",
                   "broadcasterMedia": "tv",
-                  "broadcasterId": 1001042,
-                  "broadcasterDisplay": "TBD",
-                  "broadcasterAbbreviation": "TBD",
+                  "broadcasterId": 2,
+                  "broadcasterDisplay": "ESPN",
+                  "broadcasterAbbreviation": "ESPN",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
-                  "broadcasterVideoLink": "",
+                  "broadcasterVideoLink": "https://espn.smart.link/b4uxwf8ow?ex_cid=NBA&gameId=401873346&referringapp=nba",
                   "regionId": 1,
                   "broadcasterTeamId": -1,
-                  "broadcasterRanking": null,
+                  "broadcasterRanking": 2,
                   "localizationRegion": ""
                 }
               ],
@@ -214476,36 +214627,64 @@
               ],
               "nationalOttBroadcasters": [],
               "homeTvBroadcasters": [],
-              "homeRadioBroadcasters": [],
+              "homeRadioBroadcasters": [
+                {
+                  "broadcasterScope": "home",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001675,
+                  "broadcasterDisplay": "100.7 WMMS / S: La Mega 1300",
+                  "broadcasterAbbreviation": "WMMS/WJMO",
+                  "broadcasterDescription": "100.7 WMMS / S: La Mega 1300",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612739,
+                  "broadcasterRanking": null
+                }
+              ],
               "homeOttBroadcasters": [],
               "awayTvBroadcasters": [],
-              "awayRadioBroadcasters": [],
+              "awayRadioBroadcasters": [
+                {
+                  "broadcasterScope": "away",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001199,
+                  "broadcasterDisplay": "880 ESPN New York",
+                  "broadcasterAbbreviation": "WHSQ",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612752,
+                  "broadcasterRanking": null
+                }
+              ],
               "awayOttBroadcasters": [],
               "intlRadioBroadcasters": [],
               "intlTvBroadcasters": [],
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612739,
+              "teamName": "Cavaliers",
+              "teamCity": "Cleveland",
+              "teamTricode": "CLE",
+              "teamSlug": "cavaliers",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 4
             },
             "awayTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612752,
+              "teamName": "Knicks",
+              "teamCity": "New York",
+              "teamTricode": "NYK",
+              "teamSlug": "knicks",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 3
             },
             "pointsLeaders": []
           }
@@ -214673,7 +214852,7 @@
         "games": [
           {
             "gameId": "0042500307",
-            "gameCode": "",
+            "gameCode": "20260531/CLENYK",
             "gameStatus": 1,
             "gameStatusText": "8:00 pm ET",
             "gameSequence": 1,
@@ -214683,8 +214862,8 @@
             "gameDateUTC": "2026-05-31T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:00:00Z",
             "gameDateTimeUTC": "2026-06-01T00:00:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-05-31T20:00:00Z",
+            "homeTeamTime": "2026-05-31T20:00:00Z",
             "day": "Sun",
             "monthNum": 5,
             "weekNumber": 32,
@@ -214694,15 +214873,30 @@
             "gameLabel": "East Conf. Finals",
             "gameSubLabel": "Game 7",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Madison Square Garden",
+            "arenaState": "NY",
+            "arenaCity": "New York",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
             "isNeutral": false,
             "broadcasters": {
-              "nationalTvBroadcasters": [],
+              "nationalTvBroadcasters": [
+                {
+                  "broadcasterScope": "natl",
+                  "broadcasterMedia": "tv",
+                  "broadcasterId": 2,
+                  "broadcasterDisplay": "ESPN",
+                  "broadcasterAbbreviation": "ESPN",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "https://espn.smart.link/b4uxwf8ow?ex_cid=NBA&gameId=401873347&referringapp=nba",
+                  "regionId": 1,
+                  "broadcasterTeamId": -1,
+                  "broadcasterRanking": 2,
+                  "localizationRegion": ""
+                }
+              ],
               "nationalRadioBroadcasters": [
                 {
                   "broadcasterScope": "natl",
@@ -214733,36 +214927,64 @@
               ],
               "nationalOttBroadcasters": [],
               "homeTvBroadcasters": [],
-              "homeRadioBroadcasters": [],
+              "homeRadioBroadcasters": [
+                {
+                  "broadcasterScope": "home",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001199,
+                  "broadcasterDisplay": "880 ESPN New York",
+                  "broadcasterAbbreviation": "WHSQ",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612752,
+                  "broadcasterRanking": null
+                }
+              ],
               "homeOttBroadcasters": [],
               "awayTvBroadcasters": [],
-              "awayRadioBroadcasters": [],
+              "awayRadioBroadcasters": [
+                {
+                  "broadcasterScope": "away",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1181,
+                  "broadcasterDisplay": "100.7 WMMS",
+                  "broadcasterAbbreviation": "WMMS",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612739,
+                  "broadcasterRanking": null
+                }
+              ],
               "awayOttBroadcasters": [],
               "intlRadioBroadcasters": [],
               "intlTvBroadcasters": [],
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612752,
+              "teamName": "Knicks",
+              "teamCity": "New York",
+              "teamTricode": "NYK",
+              "teamSlug": "knicks",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 3
             },
             "awayTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612739,
+              "teamName": "Cavaliers",
+              "teamCity": "Cleveland",
+              "teamTricode": "CLE",
+              "teamSlug": "cavaliers",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 4
             },
             "pointsLeaders": []
           }

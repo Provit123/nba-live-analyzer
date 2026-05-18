@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-17 06:39:22.3922",
+    "time": "2026-05-18 07:59:34.5934",
     "code": 200
   },
   "scoreboard": {
@@ -13,9 +13,9 @@
       {
         "gameId": "0042500207",
         "gameCode": "20260517/CLEDET",
-        "gameStatus": 1,
-        "gameStatusText": "8:00 pm ET",
-        "period": 0,
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
         "gameClock": "",
         "gameTimeUTC": "2026-05-18T00:00:00Z",
         "gameEt": "2026-05-17T20:00:00Z",
@@ -24,7 +24,7 @@
         "seriesGameNumber": "Game 7",
         "gameLabel": "East Conf. Semifinals",
         "gameSubLabel": "Game 7",
-        "seriesText": "Series tied 3-3",
+        "seriesText": "CLE wins 4-3",
         "seriesConference": "East",
         "poRoundDesc": "Conf. Semifinals",
         "gameSubtype": "",
@@ -35,31 +35,31 @@
           "teamCity": "Detroit",
           "teamTricode": "DET",
           "wins": 3,
-          "losses": 3,
-          "score": 0,
+          "losses": 4,
+          "score": 94,
           "seed": 1,
           "inBonus": null,
-          "timeoutsRemaining": 0,
+          "timeoutsRemaining": 1,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 22
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 25
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 26
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 21
             }
           ]
         },
@@ -68,9 +68,9 @@
           "teamName": "Cavaliers",
           "teamCity": "Cleveland",
           "teamTricode": "CLE",
-          "wins": 3,
+          "wins": 4,
           "losses": 3,
-          "score": 0,
+          "score": 125,
           "seed": 4,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -78,47 +78,47 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 31
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 33
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 35
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 26
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1642450,
+            "name": "Daniss Jenkins",
+            "jerseyNum": "24",
+            "position": "G",
             "teamTricode": "DET",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 17,
+            "rebounds": 3,
+            "assists": 5
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1628378,
+            "name": "Donovan Mitchell",
+            "jerseyNum": "45",
+            "position": "G",
             "teamTricode": "CLE",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 26,
+            "rebounds": 6,
+            "assists": 8
           }
         },
         "pbOdds": {

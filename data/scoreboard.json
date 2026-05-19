@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-18 06:11:45.1145",
+    "time": "2026-05-19 06:48:34.4834",
     "code": 200
   },
   "scoreboard": {
@@ -13,9 +13,9 @@
       {
         "gameId": "0042500311",
         "gameCode": "20260518/SASOKC",
-        "gameStatus": 1,
-        "gameStatusText": "8:30 pm ET",
-        "period": 0,
+        "gameStatus": 3,
+        "gameStatusText": "Final/OT2",
+        "period": 6,
         "gameClock": "",
         "gameTimeUTC": "2026-05-19T00:30:00Z",
         "gameEt": "2026-05-18T20:30:00Z",
@@ -24,7 +24,7 @@
         "seriesGameNumber": "Game 1",
         "gameLabel": "West Conf. Finals",
         "gameSubLabel": "Game 1",
-        "seriesText": "Series tied 0-0",
+        "seriesText": "SAS leads 1-0",
         "seriesConference": "West",
         "poRoundDesc": "Conf. Finals",
         "gameSubtype": "",
@@ -35,8 +35,8 @@
           "teamCity": "Oklahoma City",
           "teamTricode": "OKC",
           "wins": 0,
-          "losses": 0,
-          "score": 0,
+          "losses": 1,
+          "score": 115,
           "seed": 1,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -44,22 +44,32 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 27
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 17
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 29
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 28
+            },
+            {
+              "period": 5,
+              "periodType": "OVERTIME",
+              "score": 7
+            },
+            {
+              "period": 6,
+              "periodType": "OVERTIME",
+              "score": 7
             }
           ]
         },
@@ -68,57 +78,67 @@
           "teamName": "Spurs",
           "teamCity": "San Antonio",
           "teamTricode": "SAS",
-          "wins": 0,
+          "wins": 1,
           "losses": 0,
-          "score": 0,
+          "score": 122,
           "seed": 2,
           "inBonus": null,
-          "timeoutsRemaining": 0,
+          "timeoutsRemaining": 1,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 27
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 24
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 29
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 21
+            },
+            {
+              "period": 5,
+              "periodType": "OVERTIME",
+              "score": 7
+            },
+            {
+              "period": 6,
+              "periodType": "OVERTIME",
+              "score": 14
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1628983,
+            "name": "Shai Gilgeous-Alexander",
+            "jerseyNum": "2",
+            "position": "G",
             "teamTricode": "OKC",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 24,
+            "rebounds": 3,
+            "assists": 12
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1641705,
+            "name": "Victor Wembanyama",
+            "jerseyNum": "1",
+            "position": "F-C",
             "teamTricode": "SAS",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 41,
+            "rebounds": 24,
+            "assists": 3
           }
         },
         "pbOdds": {

@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "http://nba.cloud/league/00/2025-26/scheduleleaguev2?Format=json",
-    "time": "2026-05-19T14:13:54.1354Z"
+    "time": "2026-05-19T18:35:30.353Z"
   },
   "leagueSchedule": {
     "seasonYear": "2025-26",
@@ -8143,16 +8143,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642273,
-                "firstName": "Kyshawn",
-                "lastName": "George",
-                "teamId": 1610612764,
-                "teamCity": "Washington",
-                "teamName": "Wizards",
-                "teamTricode": "WAS",
-                "points": 20.0
-              },
-              {
                 "personId": 1631105,
                 "firstName": "Jalen",
                 "lastName": "Duren",
@@ -8160,6 +8150,16 @@
                 "teamCity": "Detroit",
                 "teamName": "Pistons",
                 "teamTricode": "DET",
+                "points": 20.0
+              },
+              {
+                "personId": 1642273,
+                "firstName": "Kyshawn",
+                "lastName": "George",
+                "teamId": 1610612764,
+                "teamCity": "Washington",
+                "teamName": "Wizards",
+                "teamTricode": "WAS",
                 "points": 20.0
               }
             ]
@@ -22952,16 +22952,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628970,
-                "firstName": "Miles",
-                "lastName": "Bridges",
-                "teamId": 1610612766,
-                "teamCity": "Charlotte",
-                "teamName": "Hornets",
-                "teamTricode": "CHA",
-                "points": 29.0
-              },
-              {
                 "personId": 1628374,
                 "firstName": "Lauri",
                 "lastName": "Markkanen",
@@ -22969,6 +22959,16 @@
                 "teamCity": "Utah",
                 "teamName": "Jazz",
                 "teamTricode": "UTA",
+                "points": 29.0
+              },
+              {
+                "personId": 1628970,
+                "firstName": "Miles",
+                "lastName": "Bridges",
+                "teamId": 1610612766,
+                "teamCity": "Charlotte",
+                "teamName": "Hornets",
+                "teamTricode": "CHA",
                 "points": 29.0
               }
             ]
@@ -31952,16 +31952,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630162,
-                "firstName": "Anthony",
-                "lastName": "Edwards",
-                "teamId": 1610612750,
-                "teamCity": "Minnesota",
-                "teamName": "Timberwolves",
-                "teamTricode": "MIN",
-                "points": 26.0
-              },
-              {
                 "personId": 203897,
                 "firstName": "Zach",
                 "lastName": "LaVine",
@@ -31969,6 +31959,16 @@
                 "teamCity": "Sacramento",
                 "teamName": "Kings",
                 "teamTricode": "SAC",
+                "points": 26.0
+              },
+              {
+                "personId": 1630162,
+                "firstName": "Anthony",
+                "lastName": "Edwards",
+                "teamId": 1610612750,
+                "teamCity": "Minnesota",
+                "teamName": "Timberwolves",
+                "teamTricode": "MIN",
                 "points": 26.0
               }
             ]
@@ -48135,16 +48135,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1627783,
-                "firstName": "Pascal",
-                "lastName": "Siakam",
-                "teamId": 1610612754,
-                "teamCity": "Indiana",
-                "teamName": "Pacers",
-                "teamTricode": "IND",
-                "points": 24.0
-              },
-              {
                 "personId": 1630595,
                 "firstName": "Cade",
                 "lastName": "Cunningham",
@@ -48152,6 +48142,16 @@
                 "teamCity": "Detroit",
                 "teamName": "Pistons",
                 "teamTricode": "DET",
+                "points": 24.0
+              },
+              {
+                "personId": 1627783,
+                "firstName": "Pascal",
+                "lastName": "Siakam",
+                "teamId": 1610612754,
+                "teamCity": "Indiana",
+                "teamName": "Pacers",
+                "teamTricode": "IND",
                 "points": 24.0
               }
             ]
@@ -106622,16 +106622,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1631101,
-                "firstName": "Shaedon",
-                "lastName": "Sharpe",
-                "teamId": 1610612757,
-                "teamCity": "Portland",
-                "teamName": "Trail Blazers",
-                "teamTricode": "POR",
-                "points": 25.0
-              },
-              {
                 "personId": 203935,
                 "firstName": "Marcus",
                 "lastName": "Smart",
@@ -106639,6 +106629,16 @@
                 "teamCity": "Los Angeles",
                 "teamName": "Lakers",
                 "teamTricode": "LAL",
+                "points": 25.0
+              },
+              {
+                "personId": 1631101,
+                "firstName": "Shaedon",
+                "lastName": "Sharpe",
+                "teamId": 1610612757,
+                "teamCity": "Portland",
+                "teamName": "Trail Blazers",
+                "teamTricode": "POR",
                 "points": 25.0
               }
             ]
@@ -128707,16 +128707,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 203954,
-                "firstName": "Joel",
-                "lastName": "Embiid",
-                "teamId": 1610612755,
-                "teamCity": "Philadelphia",
-                "teamName": "76ers",
-                "teamTricode": "PHI",
-                "points": 35.0
-              },
-              {
                 "personId": 1630559,
                 "firstName": "Austin",
                 "lastName": "Reaves",
@@ -128724,6 +128714,16 @@
                 "teamCity": "Los Angeles",
                 "teamName": "Lakers",
                 "teamTricode": "LAL",
+                "points": 35.0
+              },
+              {
+                "personId": 203954,
+                "firstName": "Joel",
+                "lastName": "Embiid",
+                "teamId": 1610612755,
+                "teamCity": "Philadelphia",
+                "teamName": "76ers",
+                "teamTricode": "PHI",
                 "points": 35.0
               }
             ]
@@ -171319,16 +171319,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 203468,
-                "firstName": "CJ",
-                "lastName": "McCollum",
-                "teamId": 1610612737,
-                "teamCity": "Atlanta",
-                "teamName": "Hawks",
-                "teamTricode": "ATL",
-                "points": 24.0
-              },
-              {
                 "personId": 1629655,
                 "firstName": "Daniel",
                 "lastName": "Gafford",
@@ -171336,6 +171326,16 @@
                 "teamCity": "Dallas",
                 "teamName": "Mavericks",
                 "teamTricode": "DAL",
+                "points": 24.0
+              },
+              {
+                "personId": 203468,
+                "firstName": "CJ",
+                "lastName": "McCollum",
+                "teamId": 1610612737,
+                "teamCity": "Atlanta",
+                "teamName": "Hawks",
+                "teamTricode": "ATL",
                 "points": 24.0
               }
             ]
@@ -213159,10 +213159,10 @@
                 {
                   "broadcasterScope": "away",
                   "broadcasterMedia": "radio",
-                  "broadcasterId": 1181,
-                  "broadcasterDisplay": "100.7 WMMS",
-                  "broadcasterAbbreviation": "WMMS",
-                  "broadcasterDescription": "",
+                  "broadcasterId": 1001675,
+                  "broadcasterDisplay": "100.7 WMMS / S: La Mega 1300",
+                  "broadcasterAbbreviation": "WMMS/WJMO",
+                  "broadcasterDescription": "100.7 WMMS / S: La Mega 1300",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
                   "regionId": 1,
@@ -213455,7 +213455,21 @@
               ],
               "homeOttBroadcasters": [],
               "awayTvBroadcasters": [],
-              "awayRadioBroadcasters": [],
+              "awayRadioBroadcasters": [
+                {
+                  "broadcasterScope": "away",
+                  "broadcasterMedia": "radio",
+                  "broadcasterId": 1001554,
+                  "broadcasterDisplay": "WTAM 1100 / 100.7 WMMS / S: La Mega 1300",
+                  "broadcasterAbbreviation": "WTAM/WMMS/WJMO",
+                  "broadcasterDescription": "",
+                  "tapeDelayComments": "",
+                  "broadcasterVideoLink": "",
+                  "regionId": 1,
+                  "broadcasterTeamId": 1610612739,
+                  "broadcasterRanking": null
+                }
+              ],
               "awayOttBroadcasters": [],
               "intlRadioBroadcasters": [],
               "intlTvBroadcasters": [],
@@ -214345,9 +214359,9 @@
                 {
                   "broadcasterScope": "away",
                   "broadcasterMedia": "radio",
-                  "broadcasterId": 1040,
-                  "broadcasterDisplay": "WTAM/WMMS",
-                  "broadcasterAbbreviation": "WTAM/WMMS",
+                  "broadcasterId": 1001554,
+                  "broadcasterDisplay": "WTAM 1100 / 100.7 WMMS / S: La Mega 1300",
+                  "broadcasterAbbreviation": "WTAM/WMMS/WJMO",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",
@@ -214945,9 +214959,9 @@
                 {
                   "broadcasterScope": "away",
                   "broadcasterMedia": "radio",
-                  "broadcasterId": 1040,
-                  "broadcasterDisplay": "WTAM/WMMS",
-                  "broadcasterAbbreviation": "WTAM/WMMS",
+                  "broadcasterId": 1001554,
+                  "broadcasterDisplay": "WTAM 1100 / 100.7 WMMS / S: La Mega 1300",
+                  "broadcasterAbbreviation": "WTAM/WMMS/WJMO",
                   "broadcasterDescription": "",
                   "tapeDelayComments": "",
                   "broadcasterVideoLink": "",

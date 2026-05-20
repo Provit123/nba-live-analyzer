@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-19 06:47:11.4711",
+    "time": "2026-05-20 06:35:03.353",
     "code": 200
   },
   "scoreboard": {
@@ -13,9 +13,9 @@
       {
         "gameId": "0042500301",
         "gameCode": "20260519/CLENYK",
-        "gameStatus": 1,
-        "gameStatusText": "8:00 pm ET",
-        "period": 0,
+        "gameStatus": 3,
+        "gameStatusText": "Final/OT",
+        "period": 5,
         "gameClock": "",
         "gameTimeUTC": "2026-05-20T00:00:00Z",
         "gameEt": "2026-05-19T20:00:00Z",
@@ -24,7 +24,7 @@
         "seriesGameNumber": "Game 1",
         "gameLabel": "East Conf. Finals",
         "gameSubLabel": "Game 1",
-        "seriesText": "Series tied 0-0",
+        "seriesText": "NYK leads 1-0",
         "seriesConference": "East",
         "poRoundDesc": "Conf. Finals",
         "gameSubtype": "",
@@ -34,9 +34,9 @@
           "teamName": "Knicks",
           "teamCity": "New York",
           "teamTricode": "NYK",
-          "wins": 0,
+          "wins": 1,
           "losses": 0,
-          "score": 0,
+          "score": 115,
           "seed": 3,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -44,22 +44,27 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 23
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 23
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 23
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 32
+            },
+            {
+              "period": 5,
+              "periodType": "OVERTIME",
+              "score": 14
             }
           ]
         },
@@ -69,8 +74,8 @@
           "teamCity": "Cleveland",
           "teamTricode": "CLE",
           "wins": 0,
-          "losses": 0,
-          "score": 0,
+          "losses": 1,
+          "score": 104,
           "seed": 4,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -78,47 +83,52 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 16
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 32
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 35
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 18
+            },
+            {
+              "period": 5,
+              "periodType": "OVERTIME",
+              "score": 3
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1628973,
+            "name": "Jalen Brunson",
+            "jerseyNum": "11",
+            "position": "G",
             "teamTricode": "NYK",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 38,
+            "rebounds": 5,
+            "assists": 6
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1628378,
+            "name": "Donovan Mitchell",
+            "jerseyNum": "45",
+            "position": "G",
             "teamTricode": "CLE",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 29,
+            "rebounds": 5,
+            "assists": 3
           }
         },
         "pbOdds": {

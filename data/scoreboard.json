@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-20 07:58:11.5811",
+    "time": "2026-05-21 07:56:36.5636",
     "code": 200
   },
   "scoreboard": {
@@ -13,9 +13,9 @@
       {
         "gameId": "0042500312",
         "gameCode": "20260520/SASOKC",
-        "gameStatus": 1,
-        "gameStatusText": "8:30 pm ET",
-        "period": 0,
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
         "gameClock": "",
         "gameTimeUTC": "2026-05-21T00:30:00Z",
         "gameEt": "2026-05-20T20:30:00Z",
@@ -24,7 +24,7 @@
         "seriesGameNumber": "Game 2",
         "gameLabel": "West Conf. Finals",
         "gameSubLabel": "Game 2",
-        "seriesText": "SAS leads 1-0",
+        "seriesText": "Series tied 1-1",
         "seriesConference": "West",
         "poRoundDesc": "Conf. Finals",
         "gameSubtype": "",
@@ -34,9 +34,9 @@
           "teamName": "Thunder",
           "teamCity": "Oklahoma City",
           "teamTricode": "OKC",
-          "wins": 0,
+          "wins": 1,
           "losses": 1,
-          "score": 0,
+          "score": 122,
           "seed": 1,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -44,22 +44,22 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 31
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 31
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 34
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 26
             }
           ]
         },
@@ -69,8 +69,8 @@
           "teamCity": "San Antonio",
           "teamTricode": "SAS",
           "wins": 1,
-          "losses": 0,
-          "score": 0,
+          "losses": 1,
+          "score": 113,
           "seed": 2,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -78,47 +78,47 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 31
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 20
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 37
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 25
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1628983,
+            "name": "Shai Gilgeous-Alexander",
+            "jerseyNum": "2",
+            "position": "G",
             "teamTricode": "OKC",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 30,
+            "rebounds": 4,
+            "assists": 9
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1641705,
+            "name": "Victor Wembanyama",
+            "jerseyNum": "1",
+            "position": "F-C",
             "teamTricode": "SAS",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 21,
+            "rebounds": 17,
+            "assists": 6
           }
         },
         "pbOdds": {

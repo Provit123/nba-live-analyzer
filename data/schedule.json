@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "http://nba.cloud/league/00/2025-26/scheduleleaguev2?Format=json",
-    "time": "2026-05-22T17:35:54.3554Z"
+    "time": "2026-05-23T03:29:12.2912Z"
   },
   "leagueSchedule": {
     "seasonYear": "2025-26",
@@ -31952,16 +31952,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 203897,
-                "firstName": "Zach",
-                "lastName": "LaVine",
-                "teamId": 1610612758,
-                "teamCity": "Sacramento",
-                "teamName": "Kings",
-                "teamTricode": "SAC",
-                "points": 26.0
-              },
-              {
                 "personId": 1630162,
                 "firstName": "Anthony",
                 "lastName": "Edwards",
@@ -31969,6 +31959,16 @@
                 "teamCity": "Minnesota",
                 "teamName": "Timberwolves",
                 "teamTricode": "MIN",
+                "points": 26.0
+              },
+              {
+                "personId": 203897,
+                "firstName": "Zach",
+                "lastName": "LaVine",
+                "teamId": 1610612758,
+                "teamCity": "Sacramento",
+                "teamName": "Kings",
+                "teamTricode": "SAC",
                 "points": 26.0
               }
             ]
@@ -41765,16 +41765,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630595,
-                "firstName": "Cade",
-                "lastName": "Cunningham",
-                "teamId": 1610612765,
-                "teamCity": "Detroit",
-                "teamName": "Pistons",
-                "teamTricode": "DET",
-                "points": 25.0
-              },
-              {
                 "personId": 1630552,
                 "firstName": "Jalen",
                 "lastName": "Johnson",
@@ -41782,6 +41772,16 @@
                 "teamCity": "Atlanta",
                 "teamName": "Hawks",
                 "teamTricode": "ATL",
+                "points": 25.0
+              },
+              {
+                "personId": 1630595,
+                "firstName": "Cade",
+                "lastName": "Cunningham",
+                "teamId": 1610612765,
+                "teamCity": "Detroit",
+                "teamName": "Pistons",
+                "teamTricode": "DET",
                 "points": 25.0
               }
             ]
@@ -48135,16 +48135,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630595,
-                "firstName": "Cade",
-                "lastName": "Cunningham",
-                "teamId": 1610612765,
-                "teamCity": "Detroit",
-                "teamName": "Pistons",
-                "teamTricode": "DET",
-                "points": 24.0
-              },
-              {
                 "personId": 1627783,
                 "firstName": "Pascal",
                 "lastName": "Siakam",
@@ -48152,6 +48142,16 @@
                 "teamCity": "Indiana",
                 "teamName": "Pacers",
                 "teamTricode": "IND",
+                "points": 24.0
+              },
+              {
+                "personId": 1630595,
+                "firstName": "Cade",
+                "lastName": "Cunningham",
+                "teamId": 1610612765,
+                "teamCity": "Detroit",
+                "teamName": "Pistons",
+                "teamTricode": "DET",
                 "points": 24.0
               }
             ]
@@ -75419,16 +75419,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628374,
-                "firstName": "Lauri",
-                "lastName": "Markkanen",
-                "teamId": 1610612762,
-                "teamCity": "Utah",
-                "teamName": "Jazz",
-                "teamTricode": "UTA",
-                "points": 27.0
-              },
-              {
                 "personId": 1627750,
                 "firstName": "Jamal",
                 "lastName": "Murray",
@@ -75436,6 +75426,16 @@
                 "teamCity": "Denver",
                 "teamName": "Nuggets",
                 "teamTricode": "DEN",
+                "points": 27.0
+              },
+              {
+                "personId": 1628374,
+                "firstName": "Lauri",
+                "lastName": "Markkanen",
+                "teamId": 1610612762,
+                "teamCity": "Utah",
+                "teamName": "Jazz",
+                "teamTricode": "UTA",
                 "points": 27.0
               }
             ]
@@ -140940,16 +140940,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1641713,
-                "firstName": "GG",
-                "lastName": "Jackson",
-                "teamId": 1610612763,
-                "teamCity": "Memphis",
-                "teamName": "Grizzlies",
-                "teamTricode": "MEM",
-                "points": 28.0
-              },
-              {
                 "personId": 203952,
                 "firstName": "Andrew",
                 "lastName": "Wiggins",
@@ -140957,6 +140947,16 @@
                 "teamCity": "Miami",
                 "teamName": "Heat",
                 "teamTricode": "MIA",
+                "points": 28.0
+              },
+              {
+                "personId": 1641713,
+                "firstName": "GG",
+                "lastName": "Jackson",
+                "teamId": 1610612763,
+                "teamCity": "Memphis",
+                "teamName": "Grizzlies",
+                "teamTricode": "MEM",
                 "points": 28.0
               }
             ]
@@ -152691,16 +152691,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642272,
-                "firstName": "Jared",
-                "lastName": "McCain",
-                "teamId": 1610612760,
-                "teamCity": "Oklahoma City",
-                "teamName": "Thunder",
-                "teamTricode": "OKC",
-                "points": 20.0
-              },
-              {
                 "personId": 1629012,
                 "firstName": "Collin",
                 "lastName": "Sexton",
@@ -152708,6 +152698,16 @@
                 "teamCity": "Chicago",
                 "teamName": "Bulls",
                 "teamTricode": "CHI",
+                "points": 20.0
+              },
+              {
+                "personId": 1642272,
+                "firstName": "Jared",
+                "lastName": "McCain",
+                "teamId": 1610612760,
+                "teamCity": "Oklahoma City",
+                "teamName": "Thunder",
+                "teamTricode": "OKC",
                 "points": 20.0
               }
             ]
@@ -171319,16 +171319,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1629655,
-                "firstName": "Daniel",
-                "lastName": "Gafford",
-                "teamId": 1610612742,
-                "teamCity": "Dallas",
-                "teamName": "Mavericks",
-                "teamTricode": "DAL",
-                "points": 24.0
-              },
-              {
                 "personId": 203468,
                 "firstName": "CJ",
                 "lastName": "McCollum",
@@ -171336,6 +171326,16 @@
                 "teamCity": "Atlanta",
                 "teamName": "Hawks",
                 "teamTricode": "ATL",
+                "points": 24.0
+              },
+              {
+                "personId": 1629655,
+                "firstName": "Daniel",
+                "lastName": "Gafford",
+                "teamId": 1610612742,
+                "teamCity": "Dallas",
+                "teamName": "Mavericks",
+                "teamTricode": "DAL",
                 "points": 24.0
               }
             ]
@@ -188979,6 +188979,16 @@
             },
             "pointsLeaders": [
               {
+                "personId": 1628378,
+                "firstName": "Donovan",
+                "lastName": "Mitchell",
+                "teamId": 1610612739,
+                "teamCity": "Cleveland",
+                "teamName": "Cavaliers",
+                "teamTricode": "CLE",
+                "points": 25.0
+              },
+              {
                 "personId": 1630611,
                 "firstName": "Gui",
                 "lastName": "Santos",
@@ -188996,16 +189006,6 @@
                 "teamCity": "Golden State",
                 "teamName": "Warriors",
                 "teamTricode": "GSW",
-                "points": 25.0
-              },
-              {
-                "personId": 1628378,
-                "firstName": "Donovan",
-                "lastName": "Mitchell",
-                "teamId": 1610612739,
-                "teamCity": "Cleveland",
-                "teamName": "Cavaliers",
-                "teamTricode": "CLE",
                 "points": 25.0
               }
             ]
@@ -199034,16 +199034,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642382,
-                "firstName": "Branden",
-                "lastName": "Carlson",
-                "teamId": 1610612760,
-                "teamCity": "Oklahoma City",
-                "teamName": "Thunder",
-                "teamTricode": "OKC",
-                "points": 23.0
-              },
-              {
                 "personId": 202685,
                 "firstName": "Jonas",
                 "lastName": "Valanciunas",
@@ -199051,6 +199041,16 @@
                 "teamCity": "Denver",
                 "teamName": "Nuggets",
                 "teamTricode": "DEN",
+                "points": 23.0
+              },
+              {
+                "personId": 1642382,
+                "firstName": "Branden",
+                "lastName": "Carlson",
+                "teamId": 1610612760,
+                "teamCity": "Oklahoma City",
+                "teamName": "Thunder",
+                "teamTricode": "OKC",
                 "points": 23.0
               }
             ]
@@ -210486,16 +210486,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630178,
-                "firstName": "Tyrese",
-                "lastName": "Maxey",
-                "teamId": 1610612755,
-                "teamCity": "Philadelphia",
-                "teamName": "76ers",
-                "teamTricode": "PHI",
-                "points": 26.0
-              },
-              {
                 "personId": 1628973,
                 "firstName": "Jalen",
                 "lastName": "Brunson",
@@ -210503,6 +210493,16 @@
                 "teamCity": "New York",
                 "teamName": "Knicks",
                 "teamTricode": "NYK",
+                "points": 26.0
+              },
+              {
+                "personId": 1630178,
+                "firstName": "Tyrese",
+                "lastName": "Maxey",
+                "teamId": 1610612755,
+                "teamCity": "Philadelphia",
+                "teamName": "76ers",
+                "teamTricode": "PHI",
                 "points": 26.0
               }
             ]
@@ -213550,8 +213550,8 @@
           {
             "gameId": "0042500313",
             "gameCode": "20260522/OKCSAS",
-            "gameStatus": 1,
-            "gameStatusText": "8:30 pm ET",
+            "gameStatus": 3,
+            "gameStatusText": "Final",
             "gameSequence": 1,
             "gameDateEst": "2026-05-22T00:00:00Z",
             "gameTimeEst": "1900-01-01T20:30:00Z",
@@ -213569,7 +213569,7 @@
             "seriesGameNumber": "Game 3",
             "gameLabel": "West Conf. Finals",
             "gameSubLabel": "Game 3",
-            "seriesText": "Series tied 1-1",
+            "seriesText": "OKC leads 2-1",
             "arenaName": "Frost Bank Center",
             "arenaState": "TX",
             "arenaCity": "San Antonio",
@@ -213682,8 +213682,8 @@
               "teamTricode": "SAS",
               "teamSlug": "spurs",
               "wins": 1,
-              "losses": 1,
-              "score": 0,
+              "losses": 2,
+              "score": 108,
               "seed": 2
             },
             "awayTeam": {
@@ -213692,12 +213692,33 @@
               "teamCity": "Oklahoma City",
               "teamTricode": "OKC",
               "teamSlug": "thunder",
-              "wins": 1,
+              "wins": 2,
               "losses": 1,
-              "score": 0,
+              "score": 123,
               "seed": 1
             },
-            "pointsLeaders": []
+            "pointsLeaders": [
+              {
+                "personId": 1641705,
+                "firstName": "Victor",
+                "lastName": "Wembanyama",
+                "teamId": 1610612759,
+                "teamCity": "San Antonio",
+                "teamName": "Spurs",
+                "teamTricode": "SAS",
+                "points": 26.0
+              },
+              {
+                "personId": 1628983,
+                "firstName": "Shai",
+                "lastName": "Gilgeous-Alexander",
+                "teamId": 1610612760,
+                "teamCity": "Oklahoma City",
+                "teamName": "Thunder",
+                "teamTricode": "OKC",
+                "points": 26.0
+              }
+            ]
           }
         ]
       },
@@ -213869,7 +213890,7 @@
             "seriesGameNumber": "Game 4",
             "gameLabel": "West Conf. Finals",
             "gameSubLabel": "Game 4",
-            "seriesText": "Series tied 1-1",
+            "seriesText": "OKC leads 2-1",
             "arenaName": "Frost Bank Center",
             "arenaState": "TX",
             "arenaCity": "San Antonio",
@@ -213982,7 +214003,7 @@
               "teamTricode": "SAS",
               "teamSlug": "spurs",
               "wins": 1,
-              "losses": 1,
+              "losses": 2,
               "score": 0,
               "seed": 2
             },
@@ -213992,7 +214013,7 @@
               "teamCity": "Oklahoma City",
               "teamTricode": "OKC",
               "teamSlug": "thunder",
-              "wins": 1,
+              "wins": 2,
               "losses": 1,
               "score": 0,
               "seed": 1
@@ -214169,7 +214190,7 @@
             "seriesGameNumber": "Game 5",
             "gameLabel": "West Conf. Finals",
             "gameSubLabel": "Game 5",
-            "seriesText": "Series tied 1-1",
+            "seriesText": "OKC leads 2-1",
             "arenaName": "Paycom Center",
             "arenaState": "OK",
             "arenaCity": "Oklahoma City",
@@ -214281,7 +214302,7 @@
               "teamCity": "Oklahoma City",
               "teamTricode": "OKC",
               "teamSlug": "thunder",
-              "wins": 1,
+              "wins": 2,
               "losses": 1,
               "score": 0,
               "seed": 1
@@ -214293,7 +214314,7 @@
               "teamTricode": "SAS",
               "teamSlug": "spurs",
               "wins": 1,
-              "losses": 1,
+              "losses": 2,
               "score": 0,
               "seed": 2
             },
@@ -214469,7 +214490,7 @@
             "seriesGameNumber": "Game 6",
             "gameLabel": "West Conf. Finals",
             "gameSubLabel": "Game 6",
-            "seriesText": "Series tied 1-1",
+            "seriesText": "OKC leads 2-1",
             "arenaName": "Frost Bank Center",
             "arenaState": "TX",
             "arenaCity": "San Antonio",
@@ -214582,7 +214603,7 @@
               "teamTricode": "SAS",
               "teamSlug": "spurs",
               "wins": 1,
-              "losses": 1,
+              "losses": 2,
               "score": 0,
               "seed": 2
             },
@@ -214592,7 +214613,7 @@
               "teamCity": "Oklahoma City",
               "teamTricode": "OKC",
               "teamSlug": "thunder",
-              "wins": 1,
+              "wins": 2,
               "losses": 1,
               "score": 0,
               "seed": 1
@@ -214769,7 +214790,7 @@
             "seriesGameNumber": "Game 7",
             "gameLabel": "West Conf. Finals",
             "gameSubLabel": "Game 7",
-            "seriesText": "Series tied 1-1",
+            "seriesText": "OKC leads 2-1",
             "arenaName": "Paycom Center",
             "arenaState": "OK",
             "arenaCity": "Oklahoma City",
@@ -214881,7 +214902,7 @@
               "teamCity": "Oklahoma City",
               "teamTricode": "OKC",
               "teamSlug": "thunder",
-              "wins": 1,
+              "wins": 2,
               "losses": 1,
               "score": 0,
               "seed": 1
@@ -214893,7 +214914,7 @@
               "teamTricode": "SAS",
               "teamSlug": "spurs",
               "wins": 1,
-              "losses": 1,
+              "losses": 2,
               "score": 0,
               "seed": 2
             },

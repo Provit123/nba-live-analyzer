@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-23 06:38:40.3840",
+    "time": "2026-05-24 04:06:47.647",
     "code": 200
   },
   "scoreboard": {
@@ -13,9 +13,9 @@
       {
         "gameId": "0042500303",
         "gameCode": "20260523/NYKCLE",
-        "gameStatus": 1,
-        "gameStatusText": "8:00 pm ET",
-        "period": 0,
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
         "gameClock": "",
         "gameTimeUTC": "2026-05-24T00:00:00Z",
         "gameEt": "2026-05-23T20:00:00Z",
@@ -24,7 +24,7 @@
         "seriesGameNumber": "Game 3",
         "gameLabel": "East Conf. Finals",
         "gameSubLabel": "Game 3",
-        "seriesText": "NYK leads 2-0",
+        "seriesText": "NYK leads 3-0",
         "seriesConference": "East",
         "poRoundDesc": "Conf. Finals",
         "gameSubtype": "",
@@ -35,8 +35,8 @@
           "teamCity": "Cleveland",
           "teamTricode": "CLE",
           "wins": 0,
-          "losses": 2,
-          "score": 0,
+          "losses": 3,
+          "score": 108,
           "seed": 4,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -44,22 +44,22 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 27
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 27
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 28
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 26
             }
           ]
         },
@@ -68,57 +68,57 @@
           "teamName": "Knicks",
           "teamCity": "New York",
           "teamTricode": "NYK",
-          "wins": 2,
+          "wins": 3,
           "losses": 0,
-          "score": 0,
+          "score": 121,
           "seed": 3,
           "inBonus": null,
-          "timeoutsRemaining": 0,
+          "timeoutsRemaining": 1,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 37
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 23
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 31
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 30
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1630596,
+            "name": "Evan Mobley",
+            "jerseyNum": "4",
+            "position": "C",
             "teamTricode": "CLE",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 24,
+            "rebounds": 6,
+            "assists": 2
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1628973,
+            "name": "Jalen Brunson",
+            "jerseyNum": "11",
+            "position": "G",
             "teamTricode": "NYK",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 30,
+            "rebounds": 3,
+            "assists": 6
           }
         },
         "pbOdds": {

@@ -2,123 +2,123 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-05-25 08:49:37.4937",
+    "time": "2026-05-25 02:18:18.1818",
     "code": 200
   },
   "scoreboard": {
-    "gameDate": "2026-05-24",
+    "gameDate": "2026-05-25",
     "leagueId": "00",
     "leagueName": "National Basketball Association",
     "games": [
       {
-        "gameId": "0042500314",
-        "gameCode": "20260524/OKCSAS",
-        "gameStatus": 3,
-        "gameStatusText": "Final",
-        "period": 4,
+        "gameId": "0042500304",
+        "gameCode": "20260525/NYKCLE",
+        "gameStatus": 1,
+        "gameStatusText": "8:00 pm ET",
+        "period": 0,
         "gameClock": "",
-        "gameTimeUTC": "2026-05-25T00:00:00Z",
-        "gameEt": "2026-05-24T20:00:00Z",
+        "gameTimeUTC": "2026-05-26T00:00:00Z",
+        "gameEt": "2026-05-25T20:00:00Z",
         "regulationPeriods": 4,
         "ifNecessary": false,
         "seriesGameNumber": "Game 4",
-        "gameLabel": "West Conf. Finals",
+        "gameLabel": "East Conf. Finals",
         "gameSubLabel": "Game 4",
-        "seriesText": "Series tied 2-2",
-        "seriesConference": "West",
+        "seriesText": "NYK leads 3-0",
+        "seriesConference": "East",
         "poRoundDesc": "Conf. Finals",
         "gameSubtype": "",
         "isNeutral": false,
         "homeTeam": {
-          "teamId": 1610612759,
-          "teamName": "Spurs",
-          "teamCity": "San Antonio",
-          "teamTricode": "SAS",
-          "wins": 2,
-          "losses": 2,
-          "score": 103,
-          "seed": 2,
+          "teamId": 1610612739,
+          "teamName": "Cavaliers",
+          "teamCity": "Cleveland",
+          "teamTricode": "CLE",
+          "wins": 0,
+          "losses": 3,
+          "score": 0,
+          "seed": 4,
           "inBonus": null,
           "timeoutsRemaining": 0,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 28
+              "score": 0
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 22
+              "score": 0
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 28
+              "score": 0
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 25
+              "score": 0
             }
           ]
         },
         "awayTeam": {
-          "teamId": 1610612760,
-          "teamName": "Thunder",
-          "teamCity": "Oklahoma City",
-          "teamTricode": "OKC",
-          "wins": 2,
-          "losses": 2,
-          "score": 82,
-          "seed": 1,
+          "teamId": 1610612752,
+          "teamName": "Knicks",
+          "teamCity": "New York",
+          "teamTricode": "NYK",
+          "wins": 3,
+          "losses": 0,
+          "score": 0,
+          "seed": 3,
           "inBonus": null,
-          "timeoutsRemaining": 1,
+          "timeoutsRemaining": 0,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 19
+              "score": 0
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 19
+              "score": 0
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 22
+              "score": 0
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 22
+              "score": 0
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 1641705,
-            "name": "Victor Wembanyama",
-            "jerseyNum": "1",
-            "position": "F-C",
-            "teamTricode": "SAS",
+            "personId": 0,
+            "name": "",
+            "jerseyNum": "",
+            "position": "",
+            "teamTricode": "CLE",
             "playerSlug": null,
-            "points": 33,
-            "rebounds": 8,
-            "assists": 5
+            "points": 0,
+            "rebounds": 0,
+            "assists": 0
           },
           "awayLeaders": {
-            "personId": 1628983,
-            "name": "Shai Gilgeous-Alexander",
-            "jerseyNum": "2",
-            "position": "G",
-            "teamTricode": "OKC",
+            "personId": 0,
+            "name": "",
+            "jerseyNum": "",
+            "position": "",
+            "teamTricode": "NYK",
             "playerSlug": null,
-            "points": 19,
-            "rebounds": 4,
-            "assists": 7
+            "points": 0,
+            "rebounds": 0,
+            "assists": 0
           }
         },
         "pbOdds": {

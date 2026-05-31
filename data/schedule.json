@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "http://nba.cloud/league/00/2025-26/scheduleleaguev2?Format=json",
-    "time": "2026-05-30T17:31:17.3117Z"
+    "time": "2026-05-31T04:23:42.2342Z"
   },
   "leagueSchedule": {
     "seasonYear": "2025-26",
@@ -22952,16 +22952,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628970,
-                "firstName": "Miles",
-                "lastName": "Bridges",
-                "teamId": 1610612766,
-                "teamCity": "Charlotte",
-                "teamName": "Hornets",
-                "teamTricode": "CHA",
-                "points": 29.0
-              },
-              {
                 "personId": 1628374,
                 "firstName": "Lauri",
                 "lastName": "Markkanen",
@@ -22969,6 +22959,16 @@
                 "teamCity": "Utah",
                 "teamName": "Jazz",
                 "teamTricode": "UTA",
+                "points": 29.0
+              },
+              {
+                "personId": 1628970,
+                "firstName": "Miles",
+                "lastName": "Bridges",
+                "teamId": 1610612766,
+                "teamCity": "Charlotte",
+                "teamName": "Hornets",
+                "teamTricode": "CHA",
                 "points": 29.0
               }
             ]
@@ -23862,16 +23862,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628978,
-                "firstName": "Donte",
-                "lastName": "DiVincenzo",
-                "teamId": 1610612750,
-                "teamCity": "Minnesota",
-                "teamName": "Timberwolves",
-                "teamTricode": "MIN",
-                "points": 25.0
-              },
-              {
                 "personId": 1630560,
                 "firstName": "Cam",
                 "lastName": "Thomas",
@@ -23879,6 +23869,16 @@
                 "teamCity": "Brooklyn",
                 "teamName": "Nets",
                 "teamTricode": "BKN",
+                "points": 25.0
+              },
+              {
+                "personId": 1628978,
+                "firstName": "Donte",
+                "lastName": "DiVincenzo",
+                "teamId": 1610612750,
+                "teamCity": "Minnesota",
+                "teamName": "Timberwolves",
+                "teamTricode": "MIN",
                 "points": 25.0
               }
             ]
@@ -48135,16 +48135,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1627783,
-                "firstName": "Pascal",
-                "lastName": "Siakam",
-                "teamId": 1610612754,
-                "teamCity": "Indiana",
-                "teamName": "Pacers",
-                "teamTricode": "IND",
-                "points": 24.0
-              },
-              {
                 "personId": 1630595,
                 "firstName": "Cade",
                 "lastName": "Cunningham",
@@ -48152,6 +48142,16 @@
                 "teamCity": "Detroit",
                 "teamName": "Pistons",
                 "teamTricode": "DET",
+                "points": 24.0
+              },
+              {
+                "personId": 1627783,
+                "firstName": "Pascal",
+                "lastName": "Siakam",
+                "teamId": 1610612754,
+                "teamCity": "Indiana",
+                "teamName": "Pacers",
+                "teamTricode": "IND",
                 "points": 24.0
               }
             ]
@@ -52144,16 +52144,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1627783,
-                "firstName": "Pascal",
-                "lastName": "Siakam",
-                "teamId": 1610612754,
-                "teamCity": "Indiana",
-                "teamName": "Pacers",
-                "teamTricode": "IND",
-                "points": 24.0
-              },
-              {
                 "personId": 1642259,
                 "firstName": "Alex",
                 "lastName": "Sarr",
@@ -52161,6 +52151,16 @@
                 "teamCity": "Washington",
                 "teamName": "Wizards",
                 "teamTricode": "WAS",
+                "points": 24.0
+              },
+              {
+                "personId": 1627783,
+                "firstName": "Pascal",
+                "lastName": "Siakam",
+                "teamId": 1610612754,
+                "teamCity": "Indiana",
+                "teamName": "Pacers",
+                "teamTricode": "IND",
                 "points": 24.0
               }
             ]
@@ -90378,16 +90378,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1627750,
-                "firstName": "Jamal",
-                "lastName": "Murray",
-                "teamId": 1610612743,
-                "teamCity": "Denver",
-                "teamName": "Nuggets",
-                "teamTricode": "DEN",
-                "points": 27.0
-              },
-              {
                 "personId": 1629008,
                 "firstName": "Michael",
                 "lastName": "Porter Jr.",
@@ -90395,6 +90385,16 @@
                 "teamCity": "Brooklyn",
                 "teamName": "Nets",
                 "teamTricode": "BKN",
+                "points": 27.0
+              },
+              {
+                "personId": 1627750,
+                "firstName": "Jamal",
+                "lastName": "Murray",
+                "teamId": 1610612743,
+                "teamCity": "Denver",
+                "teamName": "Nuggets",
+                "teamTricode": "DEN",
                 "points": 27.0
               }
             ]
@@ -120851,16 +120851,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628973,
-                "firstName": "Jalen",
-                "lastName": "Brunson",
-                "teamId": 1610612752,
-                "teamCity": "New York",
-                "teamName": "Knicks",
-                "teamTricode": "NYK",
-                "points": 26.0
-              },
-              {
                 "personId": 1631101,
                 "firstName": "Shaedon",
                 "lastName": "Sharpe",
@@ -120868,6 +120858,16 @@
                 "teamCity": "Portland",
                 "teamName": "Trail Blazers",
                 "teamTricode": "POR",
+                "points": 26.0
+              },
+              {
+                "personId": 1628973,
+                "firstName": "Jalen",
+                "lastName": "Brunson",
+                "teamId": 1610612752,
+                "teamCity": "New York",
+                "teamName": "Knicks",
+                "teamTricode": "NYK",
                 "points": 26.0
               }
             ]
@@ -122905,16 +122905,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630217,
-                "firstName": "Desmond",
-                "lastName": "Bane",
-                "teamId": 1610612753,
-                "teamCity": "Orlando",
-                "teamName": "Magic",
-                "teamTricode": "ORL",
-                "points": 25.0
-              },
-              {
                 "personId": 1641705,
                 "firstName": "Victor",
                 "lastName": "Wembanyama",
@@ -122922,6 +122912,16 @@
                 "teamCity": "San Antonio",
                 "teamName": "Spurs",
                 "teamTricode": "SAS",
+                "points": 25.0
+              },
+              {
+                "personId": 1630217,
+                "firstName": "Desmond",
+                "lastName": "Bane",
+                "teamId": 1610612753,
+                "teamCity": "Orlando",
+                "teamName": "Magic",
+                "teamTricode": "ORL",
                 "points": 25.0
               }
             ]
@@ -133304,16 +133304,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630178,
-                "firstName": "Tyrese",
-                "lastName": "Maxey",
-                "teamId": 1610612755,
-                "teamCity": "Philadelphia",
-                "teamName": "76ers",
-                "teamTricode": "PHI",
-                "points": 30.0
-              },
-              {
                 "personId": 1641739,
                 "firstName": "Toumani",
                 "lastName": "Camara",
@@ -133321,6 +133311,16 @@
                 "teamCity": "Portland",
                 "teamName": "Trail Blazers",
                 "teamTricode": "POR",
+                "points": 30.0
+              },
+              {
+                "personId": 1630178,
+                "firstName": "Tyrese",
+                "lastName": "Maxey",
+                "teamId": 1610612755,
+                "teamCity": "Philadelphia",
+                "teamName": "76ers",
+                "teamTricode": "PHI",
                 "points": 30.0
               }
             ]
@@ -171319,16 +171319,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 203468,
-                "firstName": "CJ",
-                "lastName": "McCollum",
-                "teamId": 1610612737,
-                "teamCity": "Atlanta",
-                "teamName": "Hawks",
-                "teamTricode": "ATL",
-                "points": 24.0
-              },
-              {
                 "personId": 1629655,
                 "firstName": "Daniel",
                 "lastName": "Gafford",
@@ -171336,6 +171326,16 @@
                 "teamCity": "Dallas",
                 "teamName": "Mavericks",
                 "teamTricode": "DAL",
+                "points": 24.0
+              },
+              {
+                "personId": 203468,
+                "firstName": "CJ",
+                "lastName": "McCollum",
+                "teamId": 1610612737,
+                "teamCity": "Atlanta",
+                "teamName": "Hawks",
+                "teamTricode": "ATL",
                 "points": 24.0
               }
             ]
@@ -175091,16 +175091,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1629656,
-                "firstName": "Quentin",
-                "lastName": "Grimes",
-                "teamId": 1610612755,
-                "teamCity": "Philadelphia",
-                "teamName": "76ers",
-                "teamTricode": "PHI",
-                "points": 25.0
-              },
-              {
                 "personId": 1642846,
                 "firstName": "Ace",
                 "lastName": "Bailey",
@@ -175108,6 +175098,16 @@
                 "teamCity": "Utah",
                 "teamName": "Jazz",
                 "teamTricode": "UTA",
+                "points": 25.0
+              },
+              {
+                "personId": 1629656,
+                "firstName": "Quentin",
+                "lastName": "Grimes",
+                "teamId": 1610612755,
+                "teamCity": "Philadelphia",
+                "teamName": "76ers",
+                "teamTricode": "PHI",
                 "points": 25.0
               }
             ]
@@ -180319,16 +180319,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628973,
-                "firstName": "Jalen",
-                "lastName": "Brunson",
-                "teamId": 1610612752,
-                "teamCity": "New York",
-                "teamName": "Knicks",
-                "teamTricode": "NYK",
-                "points": 26.0
-              },
-              {
                 "personId": 1642851,
                 "firstName": "Kon",
                 "lastName": "Knueppel",
@@ -180336,6 +180326,16 @@
                 "teamCity": "Charlotte",
                 "teamName": "Hornets",
                 "teamTricode": "CHA",
+                "points": 26.0
+              },
+              {
+                "personId": 1628973,
+                "firstName": "Jalen",
+                "lastName": "Brunson",
+                "teamId": 1610612752,
+                "teamCity": "New York",
+                "teamName": "Knicks",
+                "teamTricode": "NYK",
                 "points": 26.0
               }
             ]
@@ -182512,16 +182512,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 203954,
-                "firstName": "Joel",
-                "lastName": "Embiid",
-                "teamId": 1610612755,
-                "teamCity": "Philadelphia",
-                "teamName": "76ers",
-                "teamTricode": "PHI",
-                "points": 29.0
-              },
-              {
                 "personId": 1641706,
                 "firstName": "Brandon",
                 "lastName": "Miller",
@@ -182529,6 +182519,16 @@
                 "teamCity": "Charlotte",
                 "teamName": "Hornets",
                 "teamTricode": "CHA",
+                "points": 29.0
+              },
+              {
+                "personId": 203954,
+                "firstName": "Joel",
+                "lastName": "Embiid",
+                "teamId": 1610612755,
+                "teamCity": "Philadelphia",
+                "teamName": "76ers",
+                "teamTricode": "PHI",
                 "points": 29.0
               }
             ]
@@ -208147,16 +208147,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1631094,
-                "firstName": "Paolo",
-                "lastName": "Banchero",
-                "teamId": 1610612753,
-                "teamCity": "Orlando",
-                "teamName": "Magic",
-                "teamTricode": "ORL",
-                "points": 45.0
-              },
-              {
                 "personId": 1630595,
                 "firstName": "Cade",
                 "lastName": "Cunningham",
@@ -208164,6 +208154,16 @@
                 "teamCity": "Detroit",
                 "teamName": "Pistons",
                 "teamTricode": "DET",
+                "points": 45.0
+              },
+              {
+                "personId": 1631094,
+                "firstName": "Paolo",
+                "lastName": "Banchero",
+                "teamId": 1610612753,
+                "teamCity": "Orlando",
+                "teamName": "Magic",
+                "teamTricode": "ORL",
                 "points": 45.0
               }
             ]
@@ -210486,16 +210486,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628973,
-                "firstName": "Jalen",
-                "lastName": "Brunson",
-                "teamId": 1610612752,
-                "teamCity": "New York",
-                "teamName": "Knicks",
-                "teamTricode": "NYK",
-                "points": 26.0
-              },
-              {
                 "personId": 1630178,
                 "firstName": "Tyrese",
                 "lastName": "Maxey",
@@ -210503,6 +210493,16 @@
                 "teamCity": "Philadelphia",
                 "teamName": "76ers",
                 "teamTricode": "PHI",
+                "points": 26.0
+              },
+              {
+                "personId": 1628973,
+                "firstName": "Jalen",
+                "lastName": "Brunson",
+                "teamId": 1610612752,
+                "teamCity": "New York",
+                "teamName": "Knicks",
+                "teamTricode": "NYK",
                 "points": 26.0
               }
             ]
@@ -214540,8 +214540,8 @@
           {
             "gameId": "0042500317",
             "gameCode": "20260530/SASOKC",
-            "gameStatus": 1,
-            "gameStatusText": "8:00 pm ET",
+            "gameStatus": 3,
+            "gameStatusText": "Final",
             "gameSequence": 1,
             "gameDateEst": "2026-05-30T00:00:00Z",
             "gameTimeEst": "1900-01-01T20:00:00Z",
@@ -214559,7 +214559,7 @@
             "seriesGameNumber": "Game 7",
             "gameLabel": "West Conf. Finals",
             "gameSubLabel": "Game 7",
-            "seriesText": "Series tied 3-3",
+            "seriesText": "SAS wins 4-3",
             "arenaName": "Paycom Center",
             "arenaState": "OK",
             "arenaCity": "Oklahoma City",
@@ -214672,8 +214672,8 @@
               "teamTricode": "OKC",
               "teamSlug": "thunder",
               "wins": 3,
-              "losses": 3,
-              "score": 0,
+              "losses": 4,
+              "score": 103,
               "seed": 1
             },
             "awayTeam": {
@@ -214682,12 +214682,23 @@
               "teamCity": "San Antonio",
               "teamTricode": "SAS",
               "teamSlug": "spurs",
-              "wins": 3,
+              "wins": 4,
               "losses": 3,
-              "score": 0,
+              "score": 111,
               "seed": 2
             },
-            "pointsLeaders": []
+            "pointsLeaders": [
+              {
+                "personId": 1628983,
+                "firstName": "Shai",
+                "lastName": "Gilgeous-Alexander",
+                "teamId": 1610612760,
+                "teamCity": "Oklahoma City",
+                "teamName": "Thunder",
+                "teamTricode": "OKC",
+                "points": 35.0
+              }
+            ]
           }
         ]
       },
@@ -214696,7 +214707,7 @@
         "games": [
           {
             "gameId": "0042500401",
-            "gameCode": "",
+            "gameCode": "20260603/NYKSAS",
             "gameStatus": 1,
             "gameStatusText": "8:30 pm ET",
             "gameSequence": 1,
@@ -214706,8 +214717,8 @@
             "gameDateUTC": "2026-06-03T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:30:00Z",
             "gameDateTimeUTC": "2026-06-04T00:30:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-06-03T20:30:00Z",
+            "homeTeamTime": "2026-06-03T19:30:00Z",
             "day": "Wed",
             "monthNum": 6,
             "weekNumber": 33,
@@ -214717,9 +214728,9 @@
             "gameLabel": "NBA Finals",
             "gameSubLabel": "Game 1",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Frost Bank Center",
+            "arenaState": "TX",
+            "arenaCity": "San Antonio",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
@@ -214781,15 +214792,15 @@
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612759,
+              "teamName": "Spurs",
+              "teamCity": "San Antonio",
+              "teamTricode": "SAS",
+              "teamSlug": "spurs",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 2
             },
             "awayTeam": {
               "teamId": 1610612752,
@@ -214811,7 +214822,7 @@
         "games": [
           {
             "gameId": "0042500402",
-            "gameCode": "",
+            "gameCode": "20260605/NYKSAS",
             "gameStatus": 1,
             "gameStatusText": "8:30 pm ET",
             "gameSequence": 1,
@@ -214821,8 +214832,8 @@
             "gameDateUTC": "2026-06-05T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:30:00Z",
             "gameDateTimeUTC": "2026-06-06T00:30:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-06-05T20:30:00Z",
+            "homeTeamTime": "2026-06-05T19:30:00Z",
             "day": "Fri",
             "monthNum": 6,
             "weekNumber": 33,
@@ -214832,9 +214843,9 @@
             "gameLabel": "NBA Finals",
             "gameSubLabel": "Game 2",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Frost Bank Center",
+            "arenaState": "TX",
+            "arenaCity": "San Antonio",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
@@ -214896,15 +214907,15 @@
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612759,
+              "teamName": "Spurs",
+              "teamCity": "San Antonio",
+              "teamTricode": "SAS",
+              "teamSlug": "spurs",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 2
             },
             "awayTeam": {
               "teamId": 1610612752,
@@ -214926,7 +214937,7 @@
         "games": [
           {
             "gameId": "0042500403",
-            "gameCode": "",
+            "gameCode": "20260608/SASNYK",
             "gameStatus": 1,
             "gameStatusText": "8:30 pm ET",
             "gameSequence": 1,
@@ -214936,8 +214947,8 @@
             "gameDateUTC": "2026-06-08T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:30:00Z",
             "gameDateTimeUTC": "2026-06-09T00:30:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-06-08T19:30:00Z",
+            "homeTeamTime": "2026-06-08T20:30:00Z",
             "day": "Mon",
             "monthNum": 6,
             "weekNumber": 34,
@@ -215022,15 +215033,15 @@
               "seed": 3
             },
             "awayTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612759,
+              "teamName": "Spurs",
+              "teamCity": "San Antonio",
+              "teamTricode": "SAS",
+              "teamSlug": "spurs",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 2
             },
             "pointsLeaders": []
           }
@@ -215041,7 +215052,7 @@
         "games": [
           {
             "gameId": "0042500404",
-            "gameCode": "",
+            "gameCode": "20260610/SASNYK",
             "gameStatus": 1,
             "gameStatusText": "8:30 pm ET",
             "gameSequence": 1,
@@ -215051,8 +215062,8 @@
             "gameDateUTC": "2026-06-10T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:30:00Z",
             "gameDateTimeUTC": "2026-06-11T00:30:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-06-10T19:30:00Z",
+            "homeTeamTime": "2026-06-10T20:30:00Z",
             "day": "Wed",
             "monthNum": 6,
             "weekNumber": 34,
@@ -215137,15 +215148,15 @@
               "seed": 3
             },
             "awayTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612759,
+              "teamName": "Spurs",
+              "teamCity": "San Antonio",
+              "teamTricode": "SAS",
+              "teamSlug": "spurs",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 2
             },
             "pointsLeaders": []
           }
@@ -215156,7 +215167,7 @@
         "games": [
           {
             "gameId": "0042500405",
-            "gameCode": "",
+            "gameCode": "20260613/NYKSAS",
             "gameStatus": 1,
             "gameStatusText": "8:30 pm ET",
             "gameSequence": 1,
@@ -215166,8 +215177,8 @@
             "gameDateUTC": "2026-06-13T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:30:00Z",
             "gameDateTimeUTC": "2026-06-14T00:30:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-06-13T20:30:00Z",
+            "homeTeamTime": "2026-06-13T19:30:00Z",
             "day": "Sat",
             "monthNum": 6,
             "weekNumber": 34,
@@ -215177,9 +215188,9 @@
             "gameLabel": "NBA Finals",
             "gameSubLabel": "Game 5",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Frost Bank Center",
+            "arenaState": "TX",
+            "arenaCity": "San Antonio",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
@@ -215241,15 +215252,15 @@
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612759,
+              "teamName": "Spurs",
+              "teamCity": "San Antonio",
+              "teamTricode": "SAS",
+              "teamSlug": "spurs",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 2
             },
             "awayTeam": {
               "teamId": 1610612752,
@@ -215271,7 +215282,7 @@
         "games": [
           {
             "gameId": "0042500406",
-            "gameCode": "",
+            "gameCode": "20260616/SASNYK",
             "gameStatus": 1,
             "gameStatusText": "8:30 pm ET",
             "gameSequence": 1,
@@ -215281,8 +215292,8 @@
             "gameDateUTC": "2026-06-16T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:30:00Z",
             "gameDateTimeUTC": "2026-06-17T00:30:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-06-16T19:30:00Z",
+            "homeTeamTime": "2026-06-16T20:30:00Z",
             "day": "Tue",
             "monthNum": 6,
             "weekNumber": 35,
@@ -215367,15 +215378,15 @@
               "seed": 3
             },
             "awayTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612759,
+              "teamName": "Spurs",
+              "teamCity": "San Antonio",
+              "teamTricode": "SAS",
+              "teamSlug": "spurs",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 2
             },
             "pointsLeaders": []
           }
@@ -215386,7 +215397,7 @@
         "games": [
           {
             "gameId": "0042500407",
-            "gameCode": "",
+            "gameCode": "20260619/NYKSAS",
             "gameStatus": 1,
             "gameStatusText": "8:30 pm ET",
             "gameSequence": 1,
@@ -215396,8 +215407,8 @@
             "gameDateUTC": "2026-06-19T04:00:00Z",
             "gameTimeUTC": "1900-01-01T00:30:00Z",
             "gameDateTimeUTC": "2026-06-20T00:30:00Z",
-            "awayTeamTime": "0001-01-01T00:00:00Z",
-            "homeTeamTime": "0001-01-01T00:00:00Z",
+            "awayTeamTime": "2026-06-19T20:30:00Z",
+            "homeTeamTime": "2026-06-19T19:30:00Z",
             "day": "Fri",
             "monthNum": 6,
             "weekNumber": 35,
@@ -215407,9 +215418,9 @@
             "gameLabel": "NBA Finals",
             "gameSubLabel": "Game 7",
             "seriesText": "Series tied 0-0",
-            "arenaName": "",
-            "arenaState": "",
-            "arenaCity": "",
+            "arenaName": "Frost Bank Center",
+            "arenaState": "TX",
+            "arenaCity": "San Antonio",
             "postponedStatus": "N",
             "branchLink": "",
             "gameSubtype": "",
@@ -215471,15 +215482,15 @@
               "intlOttBroadcasters": []
             },
             "homeTeam": {
-              "teamId": 0,
-              "teamName": "",
-              "teamCity": "",
-              "teamTricode": "",
-              "teamSlug": "",
+              "teamId": 1610612759,
+              "teamName": "Spurs",
+              "teamCity": "San Antonio",
+              "teamTricode": "SAS",
+              "teamSlug": "spurs",
               "wins": 0,
               "losses": 0,
               "score": 0,
-              "seed": 0
+              "seed": 2
             },
             "awayTeam": {
               "teamId": 1610612752,

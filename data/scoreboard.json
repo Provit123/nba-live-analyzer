@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-06-10 07:54:13.5413",
+    "time": "2026-06-10 10:54:53.5453",
     "code": 200
   },
   "scoreboard": {
@@ -13,12 +13,12 @@
       {
         "gameId": "0042500404",
         "gameCode": "20260610/SASNYK",
-        "gameStatus": 1,
-        "gameStatusText": "8:30 pm ET",
-        "period": 0,
-        "gameClock": "",
+        "gameStatus": 2,
+        "gameStatusText": "Q4 11:46",
+        "period": 4,
+        "gameClock": "PT11M46.00S",
         "gameTimeUTC": "2026-06-11T00:30:00Z",
-        "gameEt": "2026-06-10T20:30:00Z",
+        "gameEt": "2026-06-10T20:30:00-04:00",
         "regulationPeriods": 4,
         "ifNecessary": false,
         "seriesGameNumber": "Game 4",
@@ -36,25 +36,25 @@
           "teamTricode": "NYK",
           "wins": 2,
           "losses": 1,
-          "score": 0,
+          "score": 75,
           "seed": 3,
-          "inBonus": null,
-          "timeoutsRemaining": 0,
+          "inBonus": "0",
+          "timeoutsRemaining": 3,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 22
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 27
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 26
             },
             {
               "period": 4,
@@ -70,25 +70,25 @@
           "teamTricode": "SAS",
           "wins": 1,
           "losses": 2,
-          "score": 0,
+          "score": 90,
           "seed": 2,
-          "inBonus": null,
-          "timeoutsRemaining": 0,
+          "inBonus": "0",
+          "timeoutsRemaining": 4,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 41
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 35
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 14
             },
             {
               "period": 4,
@@ -99,26 +99,26 @@
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1628973,
+            "name": "Jalen Brunson",
+            "jerseyNum": "11",
+            "position": "G",
             "teamTricode": "NYK",
-            "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "playerSlug": "jalen-brunson",
+            "points": 27,
+            "rebounds": 3,
+            "assists": 5
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1630170,
+            "name": "Devin Vassell",
+            "jerseyNum": "24",
+            "position": "GF",
             "teamTricode": "SAS",
-            "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "playerSlug": "devin-vassell",
+            "points": 18,
+            "rebounds": 5,
+            "assists": 3
           }
         },
         "pbOdds": {

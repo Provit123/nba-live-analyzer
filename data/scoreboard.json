@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-06-13 07:05:23.523",
+    "time": "2026-06-13 09:41:02.412",
     "code": 200
   },
   "scoreboard": {
@@ -13,12 +13,12 @@
       {
         "gameId": "0042500405",
         "gameCode": "20260613/NYKSAS",
-        "gameStatus": 1,
-        "gameStatusText": "8:30 pm ET",
-        "period": 0,
-        "gameClock": "",
+        "gameStatus": 2,
+        "gameStatusText": "Q2 1:18",
+        "period": 2,
+        "gameClock": "PT01M18.00S",
         "gameTimeUTC": "2026-06-14T00:30:00Z",
-        "gameEt": "2026-06-13T20:30:00Z",
+        "gameEt": "2026-06-13T20:30:00-04:00",
         "regulationPeriods": 4,
         "ifNecessary": false,
         "seriesGameNumber": "Game 5",
@@ -36,20 +36,20 @@
           "teamTricode": "SAS",
           "wins": 1,
           "losses": 3,
-          "score": 0,
+          "score": 40,
           "seed": 2,
-          "inBonus": null,
-          "timeoutsRemaining": 0,
+          "inBonus": "0",
+          "timeoutsRemaining": 5,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 23
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 17
             },
             {
               "period": 3,
@@ -70,20 +70,20 @@
           "teamTricode": "NYK",
           "wins": 3,
           "losses": 1,
-          "score": 0,
+          "score": 34,
           "seed": 3,
-          "inBonus": null,
-          "timeoutsRemaining": 0,
+          "inBonus": "0",
+          "timeoutsRemaining": 5,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 13
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 21
             },
             {
               "period": 3,
@@ -99,26 +99,26 @@
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1641705,
+            "name": "Victor Wembanyama",
+            "jerseyNum": "1",
+            "position": "FC",
             "teamTricode": "SAS",
-            "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "playerSlug": "victor-wembanyama",
+            "points": 9,
+            "rebounds": 9,
+            "assists": 2
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1628973,
+            "name": "Jalen Brunson",
+            "jerseyNum": "11",
+            "position": "G",
             "teamTricode": "NYK",
-            "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "playerSlug": "jalen-brunson",
+            "points": 16,
+            "rebounds": 2,
+            "assists": 1
           }
         },
         "pbOdds": {

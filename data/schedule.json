@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "http://nba.cloud/league/00/2025-26/scheduleleaguev2?Format=json",
-    "time": "2026-06-13T19:00:59.059Z"
+    "time": "2026-06-13T21:36:20.362Z"
   },
   "leagueSchedule": {
     "seasonYear": "2025-26",
@@ -23862,16 +23862,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628978,
-                "firstName": "Donte",
-                "lastName": "DiVincenzo",
-                "teamId": 1610612750,
-                "teamCity": "Minnesota",
-                "teamName": "Timberwolves",
-                "teamTricode": "MIN",
-                "points": 25.0
-              },
-              {
                 "personId": 1630560,
                 "firstName": "Cam",
                 "lastName": "Thomas",
@@ -23879,6 +23869,16 @@
                 "teamCity": "Brooklyn",
                 "teamName": "Nets",
                 "teamTricode": "BKN",
+                "points": 25.0
+              },
+              {
+                "personId": 1628978,
+                "firstName": "Donte",
+                "lastName": "DiVincenzo",
+                "teamId": 1610612750,
+                "teamCity": "Minnesota",
+                "teamName": "Timberwolves",
+                "teamTricode": "MIN",
                 "points": 25.0
               }
             ]
@@ -68247,6 +68247,16 @@
             },
             "pointsLeaders": [
               {
+                "personId": 1629632,
+                "firstName": "Coby",
+                "lastName": "White",
+                "teamId": 1610612741,
+                "teamCity": "Chicago",
+                "teamName": "Bulls",
+                "teamTricode": "CHI",
+                "points": 20.0
+              },
+              {
                 "personId": 1630530,
                 "firstName": "Trey",
                 "lastName": "Murphy III",
@@ -68264,16 +68274,6 @@
                 "teamCity": "New Orleans",
                 "teamName": "Pelicans",
                 "teamTricode": "NOP",
-                "points": 20.0
-              },
-              {
-                "personId": 1629632,
-                "firstName": "Coby",
-                "lastName": "White",
-                "teamId": 1610612741,
-                "teamCity": "Chicago",
-                "teamName": "Bulls",
-                "teamTricode": "CHI",
                 "points": 20.0
               }
             ]
@@ -127176,16 +127176,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1629640,
-                "firstName": "Keldon",
-                "lastName": "Johnson",
-                "teamId": 1610612759,
-                "teamCity": "San Antonio",
-                "teamName": "Spurs",
-                "teamTricode": "SAS",
-                "points": 25.0
-              },
-              {
                 "personId": 1629026,
                 "firstName": "Kenrich",
                 "lastName": "Williams",
@@ -127193,6 +127183,16 @@
                 "teamCity": "Oklahoma City",
                 "teamName": "Thunder",
                 "teamTricode": "OKC",
+                "points": 25.0
+              },
+              {
+                "personId": 1629640,
+                "firstName": "Keldon",
+                "lastName": "Johnson",
+                "teamId": 1610612759,
+                "teamCity": "San Antonio",
+                "teamName": "Spurs",
+                "teamTricode": "SAS",
                 "points": 25.0
               }
             ]
@@ -128707,16 +128707,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 203954,
-                "firstName": "Joel",
-                "lastName": "Embiid",
-                "teamId": 1610612755,
-                "teamCity": "Philadelphia",
-                "teamName": "76ers",
-                "teamTricode": "PHI",
-                "points": 35.0
-              },
-              {
                 "personId": 1630559,
                 "firstName": "Austin",
                 "lastName": "Reaves",
@@ -128724,6 +128714,16 @@
                 "teamCity": "Los Angeles",
                 "teamName": "Lakers",
                 "teamTricode": "LAL",
+                "points": 35.0
+              },
+              {
+                "personId": 203954,
+                "firstName": "Joel",
+                "lastName": "Embiid",
+                "teamId": 1610612755,
+                "teamCity": "Philadelphia",
+                "teamName": "76ers",
+                "teamTricode": "PHI",
                 "points": 35.0
               }
             ]
@@ -171319,16 +171319,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1629655,
-                "firstName": "Daniel",
-                "lastName": "Gafford",
-                "teamId": 1610612742,
-                "teamCity": "Dallas",
-                "teamName": "Mavericks",
-                "teamTricode": "DAL",
-                "points": 24.0
-              },
-              {
                 "personId": 203468,
                 "firstName": "CJ",
                 "lastName": "McCollum",
@@ -171336,6 +171326,16 @@
                 "teamCity": "Atlanta",
                 "teamName": "Hawks",
                 "teamTricode": "ATL",
+                "points": 24.0
+              },
+              {
+                "personId": 1629655,
+                "firstName": "Daniel",
+                "lastName": "Gafford",
+                "teamId": 1610612742,
+                "teamCity": "Dallas",
+                "teamName": "Mavericks",
+                "teamTricode": "DAL",
                 "points": 24.0
               }
             ]
@@ -210486,16 +210486,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630178,
-                "firstName": "Tyrese",
-                "lastName": "Maxey",
-                "teamId": 1610612755,
-                "teamCity": "Philadelphia",
-                "teamName": "76ers",
-                "teamTricode": "PHI",
-                "points": 26.0
-              },
-              {
                 "personId": 1628973,
                 "firstName": "Jalen",
                 "lastName": "Brunson",
@@ -210503,6 +210493,16 @@
                 "teamCity": "New York",
                 "teamName": "Knicks",
                 "teamTricode": "NYK",
+                "points": 26.0
+              },
+              {
+                "personId": 1630178,
+                "firstName": "Tyrese",
+                "lastName": "Maxey",
+                "teamId": 1610612755,
+                "teamCity": "Philadelphia",
+                "teamName": "76ers",
+                "teamTricode": "PHI",
                 "points": 26.0
               }
             ]
@@ -215348,8 +215348,8 @@
           {
             "gameId": "0042500405",
             "gameCode": "20260613/NYKSAS",
-            "gameStatus": 1,
-            "gameStatusText": "8:30 pm ET",
+            "gameStatus": 2,
+            "gameStatusText": "2nd Qtr             ",
             "gameSequence": 1,
             "gameDateEst": "2026-06-13T00:00:00Z",
             "gameTimeEst": "1900-01-01T20:30:00Z",

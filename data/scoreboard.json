@@ -2,11 +2,11 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-06-15 11:39:11.3911",
+    "time": "2026-06-15 03:39:44.3944",
     "code": 200
   },
   "scoreboard": {
-    "gameDate": "2026-06-14",
+    "gameDate": "2026-06-15",
     "leagueId": "00",
     "leagueName": "National Basketball Association",
     "games": []

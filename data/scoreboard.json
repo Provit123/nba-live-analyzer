@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2026-06-16 01:42:49.4249",
+    "time": "2026-06-16 06:58:34.5834",
     "code": 200
   },
   "scoreboard": {
